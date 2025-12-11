@@ -30,7 +30,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ScenarioDef[defName="Mechanitor"]/scenario/summary</xpath>
     <value>
-      <summary>One tech-priest and a few servo-skulls.</summary>
+      <summary>One Tech-Priest and a few servo-skulls.</summary>
     </value>
   </Operation>
 </Patch>
