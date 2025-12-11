@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>NecronMechanoids Replacement Patch</name>
+  <author>Nicholas Frees</author>
+  <packageId>inkpack.NecronMechanoids</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Replaces Mechanoids with Necron equivalents.</description>
+</ModMetaData>

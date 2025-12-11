@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update mech recharger labels and descriptions to match Warhammer 40k Mechanicus theme -->
+  
+  <!-- Basic Recharger (Light mechanoids) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BasicRecharger"]/label</xpath>
+    <value>
+      <label>servo skull recharging station</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BasicRecharger"]/description</xpath>
+    <value>
+      <description>A sanctified recharging station where servo skulls and light mechanical servants can restore their power reserves. The station's machine-spirit hums with binharic chants as it transfers energy through sacred conduits, while simultaneously purging accumulated toxic waste from the servo skulls' power cores. The waste must be ritually removed by servitors to maintain the station's purity.</description>
+    </value>
+  </Operation>
+  
+  <!-- Standard Recharger (Medium/Heavy/UltraHeavy mechanoids) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="StandardRecharger"]/label</xpath>
+    <value>
+      <label>heavy servo recharging bay</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="StandardRecharger"]/description</xpath>
+    <value>
+      <description>A massive recharging bay designed for larger mechanical constructs and heavy servo units. This sanctified station channels vast amounts of power through reinforced conduits, its machine-spirit resonating with deeper binharic frequencies as it restores the energy reserves of medium and heavy mechanoids. The station accumulates significant toxic waste during the recharging rites, which must be ritually purged by servitors to prevent contamination of the sacred machinery.</description>
+    </value>
+  </Operation>
+</Patch>
+

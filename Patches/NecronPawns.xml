@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- CREATURES -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Scyther"]/label</xpath>
+    <value>
+      <label>Flayed One</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Scyther"]</xpath>
+    <value>
+      <description>A deranged close-combat construct whose skeletal frame is draped in tattered scraps of flesh and metal. The Flayed One stalks forward in eerie silence before erupting into a frenzy of slashing blades, carving foes apart at terrifying speed.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Lancer"]/label</xpath>
+    <value>
+      <label>Deathmark</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Lancer"]</xpath>
+    <value>
+      <description>A precision execution construct, patiently stalking from extreme range. The Deathmark locks onto a target with unnatural focus before unleashing a single, devastating shot that can punch through armor and bone alike.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_CentipedeBlaster"]/label</xpath>
+    <value>
+      <label>Heavy Destroyer</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_CentipedeBlaster"]</xpath>
+    <value>
+      <description>A massive floating gun-platform bristling with ancient weaponry. Slow but relentless, the Heavy Destroyer saturates the battlefield with searing energy beams designed to tear apart fortifications, vehicles and clustered infantry.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Pikeman"]/label</xpath>
+    <value>
+      <label>Immortal</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Pikeman"]</xpath>
+    <value>
+      <description>Elite line infantry of the dynasty, built on heavier frames and clad in reinforced alloy. Immortals advance with methodical, unhurried steps, laying down disciplined volleys of fire that grind resistance into dust.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Diabolus"]/label</xpath>
+    <value>
+      <label>Doomsday Monolith</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Diabolus"]</xpath>
+    <value>
+      <description>A towering, floating obelisk of obsidian metal inscribed with alien sigils. The Doomsday Monolith projects waves of annihilating energy, turning the battlefield into a killing ground where few living things survive for long.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Warqueen"]/label</xpath>
+    <value>
+      <label>Canoptek Tomb Stalker</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Warqueen"]</xpath>
+    <value>
+      <description>A predatory tunnel-hunter that slithers beneath the soil before erupting amidst its prey. The Canoptek Tomb Stalker coordinates lesser constructs as it tears through lines, shredding isolated targets with bladed limbs and segmented mandibles.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Apocriton"]/label</xpath>
+    <value>
+      <label>Overlord</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Apocriton"]</xpath>
+    <value>
+      <description>The ruling will of the dynasty given form: a regal, heavily armored commander surrounded by crackling fields of energy. The Overlord directs allied constructs with ruthless efficiency, returning from apparent destruction again and again to complete its grim designs.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Termite_Breach"]/label</xpath>
+    <value>
+      <label>Canoptek Spyder</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Termite_Breach"]</xpath>
+    <value>
+      <description>A heavy support construct that crawls forward on multiple limbs, surrounded by swarms of smaller repair and cutting drones. The Canoptek Spyder specializes in tearing down walls and emplacements, opening breaches for other units to pour through.</description>
+    </value>
+  </Operation>
+</Patch>

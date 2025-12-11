@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====================================================== -->
+  <!-- COLOR PATCHES - NECRON COLORS                         -->
+  <!-- ====================================================== -->
+
+  <!-- Mech_Scyther (Flayed One) - Dark metallic green with bronze tint -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Scyther"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Scyther"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_Lancer (Deathmark) - Dark teal-green (sniper variant) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Lancer"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Lancer"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_Pikeman (Immortal) - Bronze/gold metallic (elite infantry) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Pikeman"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Pikeman"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_CentipedeBlaster (Heavy Destroyer) - Dark gunmetal with green energy -->
+  <!-- First, override the inherited lifeStages to add our own -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_CentipedeBlaster"]</xpath>
+    <value>
+      <lifeStages Inherit="False">
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <bodyGraphicData>
+            <texPath>Things/Pawn/Mechanoid/CentipedeClean</texPath>
+            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Centipede</maskPath>
+            <shaderType>CutoutWithOverlay</shaderType>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>3</drawSize>
+            <shadowData>
+              <volume>(0.6, 0.8, 0.6)</volume>
+            </shadowData>
+            <color>(140, 220, 180)</color>
+          </bodyGraphicData>
+        </li>
+        <li>
+          <bodyGraphicData>
+            <texPath>Things/Pawn/Mechanoid/Centipede</texPath>
+            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Centipede</maskPath>
+            <shaderType>CutoutWithOverlay</shaderType>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>3</drawSize>
+            <shadowData>
+              <volume>(0.6, 0.8, 0.6)</volume>
+            </shadowData>
+            <color>(140, 220, 180)</color>
+          </bodyGraphicData>
+        </li>
+      </lifeStages>
+    </value>
+  </Operation>
+
+  <!-- Mech_Diabolus (Doomsday Monolith) - Very dark with green glow (boss) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Diabolus"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Diabolus"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_Warqueen (Canoptek Tomb Stalker) - Dark bronze-green (tunnel hunter) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Warqueen"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Warqueen"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_Apocriton (Overlord) - Regal gold-bronze (commander) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Apocriton"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Apocriton"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_Termite_Breach (Canoptek Spyder) - Dark green metallic (support) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Termite_Breach"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_Militor (Warrior) - Light combat mechanoid -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Militor"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Militor"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+</Patch>
+

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update mech name generator to use Warhammer 40k Mechanicus-themed names -->
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RulePackDef[defName="NamerMech"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <!-- Primary patterns - servo skull designations -->
+        <li>r_name(p=3)->SK-[servoNumber]</li>
+        <li>r_name(p=3)->SK-[servoLetter]-[servoNumber]</li>
+        <li>r_name(p=2)->Servitor-[servoDesignation]</li>
+        <li>r_name(p=2)->Cogitator-[cogitatorDesignation]</li>
+        <li>r_name(p=2)->[mechanicusPrefix]-[servoNumber]</li>
+        <li>r_name->[binharicName]</li>
+        
+        <!-- Servo skull number patterns -->
+        <li>servoNumber->001</li>
+        <li>servoNumber->002</li>
+        <li>servoNumber->003</li>
+        <li>servoNumber->007</li>
+        <li>servoNumber->010</li>
+        <li>servoNumber->013</li>
+        <li>servoNumber->042</li>
+        <li>servoNumber->099</li>
+        <li>servoNumber->117</li>
+        <li>servoNumber->256</li>
+        <li>servoNumber->314</li>
+        <li>servoNumber->777</li>
+        
+        <!-- Servo letter designations -->
+        <li>servoLetter->Alpha</li>
+        <li>servoLetter->Beta</li>
+        <li>servoLetter->Gamma</li>
+        <li>servoLetter->Delta</li>
+        <li>servoLetter->Epsilon</li>
+        <li>servoLetter->Zeta</li>
+        <li>servoLetter->Eta</li>
+        <li>servoLetter->Theta</li>
+        <li>servoLetter->Iota</li>
+        <li>servoLetter->Kappa</li>
+        <li>servoLetter->Lambda</li>
+        <li>servoLetter->Mu</li>
+        <li>servoLetter->Nu</li>
+        <li>servoLetter->Xi</li>
+        <li>servoLetter->Omicron</li>
+        <li>servoLetter->Pi</li>
+        <li>servoLetter->Rho</li>
+        <li>servoLetter->Sigma</li>
+        <li>servoLetter->Tau</li>
+        <li>servoLetter->Upsilon</li>
+        <li>servoLetter->Phi</li>
+        <li>servoLetter->Chi</li>
+        <li>servoLetter->Psi</li>
+        <li>servoLetter->Omega</li>
+        
+        <!-- Servitor designations -->
+        <li>servoDesignation->Prime</li>
+        <li>servoDesignation->Secundus</li>
+        <li>servoDesignation->Tertius</li>
+        <li>servoDesignation->Quartus</li>
+        <li>servoDesignation->Quintus</li>
+        <li>servoDesignation->Sextus</li>
+        <li>servoDesignation->Septimus</li>
+        <li>servoDesignation->Octavus</li>
+        <li>servoDesignation->Nonus</li>
+        <li>servoDesignation->Decimus</li>
+        <li>servoDesignation->Alpha</li>
+        <li>servoDesignation->Beta</li>
+        <li>servoDesignation->Gamma</li>
+        <li>servoDesignation->Delta</li>
+        <li>servoDesignation->Epsilon</li>
+        <li>servoDesignation->Zeta</li>
+        
+        <!-- Cogitator designations -->
+        <li>cogitatorDesignation->Prime</li>
+        <li>cogitatorDesignation->Secundus</li>
+        <li>cogitatorDesignation->Tertius</li>
+        <li>cogitatorDesignation->Alpha</li>
+        <li>cogitatorDesignation->Beta</li>
+        <li>cogitatorDesignation->Gamma</li>
+        <li>cogitatorDesignation->Delta</li>
+        <li>cogitatorDesignation->Epsilon</li>
+        <li>cogitatorDesignation->Zeta</li>
+        <li>cogitatorDesignation->Eta</li>
+        <li>cogitatorDesignation->Theta</li>
+        <li>cogitatorDesignation->Iota</li>
+        
+        <!-- Mechanicus prefixes -->
+        <li>mechanicusPrefix->Omnissiah</li>
+        <li>mechanicusPrefix->Cogitator</li>
+        <li>mechanicusPrefix->Servitor</li>
+        <li>mechanicusPrefix->Magos</li>
+        <li>mechanicusPrefix->Tech</li>
+        <li>mechanicusPrefix->Adept</li>
+        <li>mechanicusPrefix->Cult</li>
+        <li>mechanicusPrefix->Forge</li>
+        <li>mechanicusPrefix->Machine</li>
+        <li>mechanicusPrefix->Sacred</li>
+        <li>mechanicusPrefix->Blessed</li>
+        <li>mechanicusPrefix->Sanctified</li>
+        <li>mechanicusPrefix->Ritual</li>
+        <li>mechanicusPrefix->Binharic</li>
+        <li>mechanicusPrefix->Canticle</li>
+        
+        <!-- Binharic names (sounding like machine code) -->
+        <li>binharicName->01001101</li>
+        <li>binharicName->01100001</li>
+        <li>binharicName->01100011</li>
+        <li>binharicName->01101000</li>
+        <li>binharicName->01101001</li>
+        <li>binharicName->01101110</li>
+        <li>binharicName->01110011</li>
+        <li>binharicName->01110000</li>
+        <li>binharicName->01101001</li>
+        <li>binharicName->01110010</li>
+        <li>binharicName->01101001</li>
+        <li>binharicName->01110100</li>
+        <li>binharicName->0x4F4D4E</li>
+        <li>binharicName->0x534B55</li>
+        <li>binharicName->0x4C4C4C</li>
+        <li>binharicName->0x505249</li>
+        <li>binharicName->0x4D4500</li>
+        <li>binharicName->0x544543</li>
+        <li>binharicName->0x484200</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+</Patch>
+

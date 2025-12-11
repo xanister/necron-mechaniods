@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Constructoid -> Construction servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Constructoid"]/label</xpath>
+    <value>
+      <label>construction servo skull</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Constructoid"]/description</xpath>
+    <value>
+      <description>A construction servo skull: a human cranium hollowed out and packed with suspensors, auspexes, and manipulator arms. It drifts through work sites humming binharic cant, slotting components into place and welding structures together with tireless precision. Its machine-spirit knows only duty, repairs, and the geometry of sanctioned habitation.</description>
+    </value>
+  </Operation>
+
+
+  <!-- Agrihand -> Agricultural servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Agrihand"]/label</xpath>
+    <value>
+      <label>agricultural servo skull</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Agrihand"]/description</xpath>
+    <value>
+      <description>An agricultural servo skull fitted with nutrient sprayers, soil samplers, and micro-drones for pest control. It glides low over fields and hydroponics, chanting crop-litanies while adjusting moisture levels and growth cycles. To its cogitator, plants are just another data stream to prune and optimize in service of the tithe.</description>
+    </value>
+  </Operation>
+
+
+  <!-- Tunneler -> Excavation servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Tunneler"]/label</xpath>
+    <value>
+      <label>excavation servo skull</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Tunneler"]/description</xpath>
+    <value>
+      <description>A heavily reinforced excavation servo skull built for mining and breaching. Its crown bristles with auspex arrays, cutting beams, and rotary drills mounted on servo-rigs. It bores through rock and ruin alike, mapping voids, carving galleries, and leaving neat piles of spoil behind as it sings distorted work hymns into the dark.</description>
+    </value>
+  </Operation>
+
+    <!-- Lifter -> Logistics servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Lifter"]/label</xpath>
+    <value>
+      <label>logistics servo skull</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Lifter"]/description</xpath>
+    <value>
+      <description>A logistics servo skull fitted with grav-clamps, load-balancer cogitators, and tiny thrusters. It flits through storerooms and cargo bays, quietly rearranging crates, shells, and supplies according to inscrutable optimization rites dictated by its machine-spirit.</description>
+    </value>
+  </Operation>
+
+  <!-- Fabricor -> Crafting servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Fabricor"]/label</xpath>
+    <value>
+      <label>crafting servo skull</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Fabricor"]/description</xpath>
+    <value>
+      <description>An advanced crafting servo skull equipped with precision manipulators, micro-welders, and auspex arrays. It hovers over workbenches and forges, its cogitator running complex fabrication algorithms as it assembles weapons, armor, and equipment with machine-precision. The skull's former owner's expertise lives on in its binary prayers, ensuring every component meets the exacting standards of the Adeptus Mechanicus.</description>
+    </value>
+  </Operation>
+
+  <!-- Paramedic -> Medical servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Paramedic"]/label</xpath>
+    <value>
+      <label>medical servo skull</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Paramedic"]/description</xpath>
+    <value>
+      <description>A medical servo skull fitted with diagnostic auspexes, injector needles, and sterile field projectors. It drifts through infirmaries and field hospitals, its preserved brain-stem housing the medical knowledge of a long-dead medicae. It chants healing litanies while administering stimms, applying bandages, and monitoring vital signs with the detached efficiency of a machine that has forgotten what pain feels like.</description>
+    </value>
+  </Operation>
+
+  <!-- Cleansweeper -> Sanitation servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Cleansweeper"]/label</xpath>
+    <value>
+      <label>sanitation servo skull</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Cleansweeper"]/description</xpath>
+    <value>
+      <description>A sanitation servo skull armed with scrubber arrays, disinfectant sprayers, and waste collectors. It glides through hab-blocks and corridors, methodically purging filth, vermin, and contamination with the obsessive zeal of a machine that knows only cleanliness. Its binharic chants echo through empty halls as it polishes floors, scrubs walls, and incinerates refuse in service of the Emperor's hygiene standards.</description>
+    </value>
+  </Operation>
+</Patch>

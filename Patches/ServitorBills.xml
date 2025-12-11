@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update mech gestator bill text and recipe labels to match servitor/40k theme -->
+  
+  <!-- Update jobString for all servo skull recipes (they inherit from BaseMechanoidRecipe) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Constructoid"]</xpath>
+    <value>
+      <jobString>Constructing servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Agrihand"]</xpath>
+    <value>
+      <jobString>Constructing servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Tunneler"]</xpath>
+    <value>
+      <jobString>Constructing servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Lifter"]</xpath>
+    <value>
+      <jobString>Constructing servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Fabricor"]</xpath>
+    <value>
+      <jobString>Constructing servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Paramedic"]</xpath>
+    <value>
+      <jobString>Constructing servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Cleansweeper"]</xpath>
+    <value>
+      <jobString>Constructing servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <!-- Update recipe labels for servo skull recipes -->
+  <!-- Constructoid -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Constructoid"]/label</xpath>
+    <value>
+      <label>construct construction servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Constructoid"]/description</xpath>
+    <value>
+      <description>Construct a construction servo skull through sacred binharic rites and mechanite infusion.</description>
+    </value>
+  </Operation>
+  
+  <!-- Agrihand -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Agrihand"]/label</xpath>
+    <value>
+      <label>construct agricultural servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Agrihand"]/description</xpath>
+    <value>
+      <description>Construct an agricultural servo skull through sacred binharic rites and mechanite infusion.</description>
+    </value>
+  </Operation>
+  
+  <!-- Tunneler -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Tunneler"]/label</xpath>
+    <value>
+      <label>construct excavation servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Tunneler"]/description</xpath>
+    <value>
+      <description>Construct an excavation servo skull through sacred binharic rites and mechanite infusion.</description>
+    </value>
+  </Operation>
+  
+  <!-- Lifter -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Lifter"]/label</xpath>
+    <value>
+      <label>construct logistics servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Lifter"]/description</xpath>
+    <value>
+      <description>Construct a logistics servo skull through sacred binharic rites and mechanite infusion.</description>
+    </value>
+  </Operation>
+  
+  <!-- Fabricor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Fabricor"]/label</xpath>
+    <value>
+      <label>construct crafting servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Fabricor"]/description</xpath>
+    <value>
+      <description>Construct a crafting servo skull through sacred binharic rites and mechanite infusion.</description>
+    </value>
+  </Operation>
+  
+  <!-- Paramedic -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Paramedic"]/label</xpath>
+    <value>
+      <label>construct medical servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Paramedic"]/description</xpath>
+    <value>
+      <description>Construct a medical servo skull through sacred binharic rites and mechanite infusion.</description>
+    </value>
+  </Operation>
+  
+  <!-- Cleansweeper -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Cleansweeper"]/label</xpath>
+    <value>
+      <label>construct sanitation servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Cleansweeper"]/description</xpath>
+    <value>
+      <description>Construct a sanitation servo skull through sacred binharic rites and mechanite infusion.</description>
+    </value>
+  </Operation>
+</Patch>
+
