@@ -38,5 +38,11 @@
   <Difficulty_ButcherYieldFactor_Info>Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding Necron constructs.</Difficulty_ButcherYieldFactor_Info>
   <MechanoidsDisabledContentWarning>Disabling {0} means less quest and spontaneous threat variety.</MechanoidsDisabledContentWarning>
   
+  <!-- Bossgroup summoning -->
+  <CannotSummon>Cannot summon {0} threat</CannotSummon>
+  <ReadyToSummonThreat>{0} threat ready to summon</ReadyToSummonThreat>
+  <LetterLabelBossgroupCallerUnlocked>Summon {LEADER_label} possible</LetterLabelBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  
 </LanguageData>
 

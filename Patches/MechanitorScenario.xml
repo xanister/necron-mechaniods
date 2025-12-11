@@ -25,5 +25,13 @@
       <text>You were an emissary of the Cult Mechanicus – tech-adept, magos, or bond-servant of the Machine God – traveling to a minor frontier world to reclaim lost archeotech.\n\nInstead, a miscalculated burn and a reactor cascade tore through your vessel, hurling you toward the surface in a coffin of scrap and screaming machine-spirits.\n\nYour pod survived, along with a handful of sacred schematics and a small cohort of battered servo-skulls. Their spirits are fractured, their housing damaged, but they still answer your signals… for now.\n\nAlone on this backwater rock, far from the great forge worlds, you will raise your own manufactorum from the dust. Strip the land, harvest ore, rebuild your steel servants and black out the stars with the smoke of industry – all in honor of the Omnissiah.</text>
     </value>
   </Operation>
+  
+  <!-- Update scenario summary -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Mechanitor"]/scenario/summary</xpath>
+    <value>
+      <summary>One tech-priest and a few servo-skulls.</summary>
+    </value>
+  </Operation>
 </Patch>
 
