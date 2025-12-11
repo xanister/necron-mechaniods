@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update tutor help text to replace "mech" with "cybernetica" and "mechanitor" with "overseer" -->
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ConceptDef[defName="Mechanitors"]/label</xpath>
+    <value>
+      <label>Overseers</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ConceptDef[defName="Mechanitors"]/helpText</xpath>
+    <value>
+      <helpText>Overseers use a cogitator headset implant to control cybernetica constructs.\n\nCybernetica constructs are assigned to control groups. You can change the behavior mode for a control group by selecting the cybernetica construct or overseer, then clicking the behavior mode icon on the control group. Gear and implants can increase the number of control groups.\n\nOverseers only have the bandwidth to control a certain number of cybernetica constructs. Special overseer gear and cybernetica control node buildings can increase an overseer's total bandwidth.\n\nThe MECHS tab provides an overview of your colony's cybernetica constructs. Here, you can draft cybernetica constructs, change their control group, set allowed areas, and more.\n\nOverseers can also signal powerful enemy Necron commanders using forbidden binharic protocols. These commanders drop unique cogitator chips which can be used to advance your cybernetica technology and build special units.</helpText>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ConceptDef[defName="MechsInCaravans"]/label</xpath>
+    <value>
+      <label>Cybernetica constructs in caravans</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ConceptDef[defName="MechsInCaravans"]/helpText</xpath>
+    <value>
+      <helpText>While caravanning, cybernetica constructs enter a semi-dormant long-travel state to preserve power. This allows them to travel long distances without losing energy. After arriving at their destination, cybernetica constructs will automatically return to their previous work mode.</helpText>
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update VFE Insectoids Progressive meme references to mechanoids to use 40k terminology -->
+  
+  <!-- Update conflict rule - change "mechanoid hive" to "Necron tomb" -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MemeDef[defName="VME_Progressive"]/descriptionMaker/rules/rulesStrings/li[contains(text(), "rampaging mechanoid hive")]</xpath>
+    <value>
+      <li>conflict(tag=meme_Progressive)        ->A rampaging Necron tomb world, seeking to destroy the automated machines of [deity0_name], tried to destroy the creations of the [memberNamePlural].</li>
+    </value>
+  </Operation>
+
+  <!-- Update founderJoin rule - change "mechanoids' attack" to "cybernetica constructs' attack" -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MemeDef[defName="VME_Progressive"]/descriptionMaker/rules/rulesStrings/li[contains(text(), "repel the mechanoids' attack")]</xpath>
+    <value>
+      <li>founderJoin(tag=meme_Progressive)     ->[deity0_name] instructed [founderName] to repurpose the factories to create a holy relic, the [relic0_name], which allowed [founderName_objective] to repel the cybernetica constructs' attack before it was too late.</li>
+    </value>
+  </Operation>
+
+</Patch>

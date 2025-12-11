@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update precept descriptions that reference mechanitors/mechanoids to use 40k terminology -->
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PreceptDef[defName="MechanoidLabor_Enhanced"]/description</xpath>
+    <value>
+      <description>Why should we work when we have cybernetica constructs to serve us? The Omnissiah provides the means of production through sacred automatons.</description>
+    </value>
+  </Operation>
+
+</Patch>
