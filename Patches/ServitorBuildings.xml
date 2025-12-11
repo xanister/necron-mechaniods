@@ -28,7 +28,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="BurnoutMechlinkBooster"]/description</xpath>
     <value>
-      <description>A cybernetica-band signaling device sanctified with forbidden binharic rites. When activated, it emits a powerful cybernetica signal pulse encoded with ancient protocols, which will attract an ultra-heavy feral Necron construct to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter's machine-spirit, so this building can only be used once.</description>
+      <description>A cybernetica-band signaling device sanctified with forbidden binharic rites. When activated, it emits a powerful cybernetica signal pulse encoded with ancient protocols, which will attract an ultra-heavy awakened Necron construct to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter's machine-spirit, so this building can only be used once.</description>
     </value>
   </Operation>
   
