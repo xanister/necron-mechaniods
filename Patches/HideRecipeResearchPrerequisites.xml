@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Remove research prerequisites from concrete recipes to hide them from research screen -->
+  <!-- This prevents recipes from appearing as requirements in the research tree -->
+  
+  <!-- Override research prerequisites in concrete recipes to hide them from research screen -->
+  <!-- By adding researchPrerequisite with Inherit="False" and empty value, we override the inherited prerequisite -->
+  
+  <!-- Medium mech recipes (inherit StandardMechtech from MediumMechanoidRecipe) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Scyther"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Lancer"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Pikeman"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Scorcher"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <!-- Heavy mech recipes -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="Tunneler"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Tunneler"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  
+  <!-- Centipede recipes (inherit HighMechtech from CentipedeMechanoidRecipe) -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="CentipedeGunner"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="CentipedeGunner"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="CentipedeBurner"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="CentipedeBurner"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Diabolus"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <!-- Walker recipes (inherit UltraMechtech from WalkerMediumMechanoidRecipe) -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="Legionary"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Legionary"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="Tesseron"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Tesseron"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  
+  <!-- SuperHeavy recipes (inherit UltraMechtech from SuperHeavyMechanoidRecipe) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Warqueen"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="Centurion"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Centurion"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  
+  <!-- Cyclops (Odyssey DLC) -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="Cyclops"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Cyclops"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+</Patch>
+
