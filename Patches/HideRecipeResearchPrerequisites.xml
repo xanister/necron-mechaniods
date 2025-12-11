@@ -6,6 +6,14 @@
   <!-- Override research prerequisites in concrete recipes to hide them from research screen -->
   <!-- By adding researchPrerequisite with Inherit="False" and empty value, we override the inherited prerequisite -->
   
+  <!-- Light mech recipes (inherit BasicMechtech from BaseMechanoidRecipe) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Militor"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
   <!-- Medium mech recipes (inherit StandardMechtech from MediumMechanoidRecipe) -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/RecipeDef[defName="Scyther"]</xpath>
