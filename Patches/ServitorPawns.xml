@@ -15,6 +15,13 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Constructoid"]/label</xpath>
+    <value>
+      <label>construction servo skull</label>
+    </value>
+  </Operation>
+
 
   <!-- Agrihand -> Agricultural servo skull -->
   <Operation Class="PatchOperationReplace">
@@ -28,6 +35,13 @@
     <xpath>Defs/ThingDef[defName="Mech_Agrihand"]/description</xpath>
     <value>
       <description>An agricultural servo skull fitted with nutrient sprayers, soil samplers, and micro-drones for pest control. It glides low over fields and hydroponics, chanting crop-litanies while adjusting moisture levels and growth cycles. To its cogitator, plants are just another data stream to prune and optimize in service of the tithe.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Agrihand"]/label</xpath>
+    <value>
+      <label>agricultural servo skull</label>
     </value>
   </Operation>
 
@@ -47,18 +61,32 @@
     </value>
   </Operation>
 
-    <!-- Lifter -> Logistics servo skull -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Tunneler"]/label</xpath>
+    <value>
+      <label>excavation servo skull</label>
+    </value>
+  </Operation>
+
+    <!-- Lifter -> Logistics servitor -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Lifter"]/label</xpath>
     <value>
-      <label>logistics servo skull</label>
+      <label>logistics servitor</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Lifter"]/description</xpath>
     <value>
-      <description>A logistics servo skull fitted with grav-clamps, load-balancer cogitators, and tiny thrusters. It flits through storerooms and cargo bays, quietly rearranging crates, shells, and supplies according to inscrutable optimization rites dictated by its machine-spirit.</description>
+      <description>A logistics servitor fitted with grav-clamps, load-balancer cogitators, and reinforced manipulator arms. It moves through storerooms and cargo bays with mechanical precision, quietly rearranging crates, shells, and supplies according to inscrutable optimization rites dictated by its machine-spirit. The servitor's former human consciousness has been reduced to a simple directive: maintain order, maximize efficiency, and serve the Omnissiah's will through perfect logistics.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Lifter"]/label</xpath>
+    <value>
+      <label>logistics servitor</label>
     </value>
   </Operation>
 
@@ -77,6 +105,13 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Fabricor"]/label</xpath>
+    <value>
+      <label>crafting servo skull</label>
+    </value>
+  </Operation>
+
   <!-- Paramedic -> Medical servo skull -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Paramedic"]/label</xpath>
@@ -92,6 +127,13 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Paramedic"]/label</xpath>
+    <value>
+      <label>medical servo skull</label>
+    </value>
+  </Operation>
+
   <!-- Cleansweeper -> Sanitation servo skull -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Cleansweeper"]/label</xpath>
@@ -104,6 +146,13 @@
     <xpath>Defs/ThingDef[defName="Mech_Cleansweeper"]/description</xpath>
     <value>
       <description>A sanitation servo skull armed with scrubber arrays, disinfectant sprayers, and waste collectors. It glides through hab-blocks and corridors, methodically purging filth, vermin, and contamination with the obsessive zeal of a machine that knows only cleanliness. Its binharic chants echo through empty halls as it polishes floors, scrubs walls, and incinerates refuse in service of the Emperor's hygiene standards.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Cleansweeper"]/label</xpath>
+    <value>
+      <label>sanitation servo skull</label>
     </value>
   </Operation>
 </Patch>

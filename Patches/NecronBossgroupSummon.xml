@@ -14,7 +14,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/description</xpath>
     <value>
-      <description>Advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire signal chips by using a mechanitor to summon a Doomsday Monolith threat.</description>
+      <description>Advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire gauss flux cores by using a mechanitor to summon a Doomsday Monolith threat.</description>
     </value>
   </Operation>
   
@@ -38,14 +38,14 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/description</xpath>
     <value>
-      <description>Superior knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire powerfocus chips by using a mechanitor to summon a Canoptek Tomb Stalker threat.</description>
+      <description>Superior knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire power core matrices by using a mechanitor to summon a Canoptek Tomb Stalker threat.</description>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/description</xpath>
     <value>
-      <description>The most advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire nano structuring chips by using a mechanitor to summon an Overlord threat.</description>
+      <description>The most advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire necrodermis matrices by using a mechanitor to summon an Overlord threat.</description>
     </value>
   </Operation>
   

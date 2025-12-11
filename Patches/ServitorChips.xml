@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update mechanoid chips to match 40k Mechanicus lore -->
+  
+  <!-- SignalChip -> Gauss Flux Core -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SignalChip"]/label</xpath>
+    <value>
+      <label>gauss flux core</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SignalChip"]/description</xpath>
+    <value>
+      <description>A crystalline data-core extracted from a Doomsday Monolith's gauss flux arc cannon. The core contains binharic protocols for synchronizing servitor control networks and is necessary to produce certain advanced types of servitors and equipment.\n\nA mechanitor can study this core to help unlock higher tiers of servitor tech research.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SignalChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetterLabel</xpath>
+    <value>
+      <completedLetterLabel>Gauss flux core studied: {RESEARCH} unlocked</completedLetterLabel>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SignalChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetter</xpath>
+    <value>
+      <completedLetter>By studying the gauss flux core, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</completedLetter>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SignalChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/activateDescString</xpath>
+    <value>
+      <activateDescString>Analyze the gauss flux core.</activateDescString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SignalChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/jobString</xpath>
+    <value>
+      <jobString>Analyze gauss flux core</jobString>
+    </value>
+  </Operation>
+  
+  <!-- PowerfocusChip -> Power Core Matrix -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PowerfocusChip"]/label</xpath>
+    <value>
+      <label>power core matrix</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PowerfocusChip"]/description</xpath>
+    <value>
+      <description>An energy-focusing cogitator matrix salvaged from a Canoptek Tomb Stalker's power distribution systems. The matrix contains sacred binharic algorithms for channeling and amplifying power through servitor networks. It is necessary to produce certain advanced types of servitors and equipment.\n\nA mechanitor can study this matrix to help unlock higher tiers of servitor tech research.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PowerfocusChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetterLabel</xpath>
+    <value>
+      <completedLetterLabel>Power core matrix studied: {RESEARCH} unlocked</completedLetterLabel>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PowerfocusChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetter</xpath>
+    <value>
+      <completedLetter>By studying the power core matrix, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</completedLetter>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PowerfocusChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/activateDescString</xpath>
+    <value>
+      <activateDescString>Analyze the power core matrix.</activateDescString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PowerfocusChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/jobString</xpath>
+    <value>
+      <jobString>Analyze power core matrix</jobString>
+    </value>
+  </Operation>
+  
+  <!-- NanostructuringChip -> Necrodermis Matrix -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="NanostructuringChip"]/label</xpath>
+    <value>
+      <label>necrodermis matrix</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="NanostructuringChip"]/description</xpath>
+    <value>
+      <description>A molecular-restructuring data-matrix extracted from an Overlord's necrodermis core. The matrix contains forbidden binharic protocols for manipulating matter at the atomic level, allowing for the creation of self-repairing servitor chassis and advanced equipment. It is necessary to produce certain advanced servitors and equipment.\n\nA mechanitor can study this matrix to help unlock higher tiers of servitor tech research.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="NanostructuringChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetterLabel</xpath>
+    <value>
+      <completedLetterLabel>Necrodermis matrix studied: {RESEARCH} unlocked</completedLetterLabel>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="NanostructuringChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/completedLetter</xpath>
+    <value>
+      <completedLetter>By studying the necrodermis matrix, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</completedLetter>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="NanostructuringChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/activateDescString</xpath>
+    <value>
+      <activateDescString>Analyze the necrodermis matrix.</activateDescString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="NanostructuringChip"]/comps/li[@Class="CompProperties_CompAnalyzableUnlockResearch"]/jobString</xpath>
+    <value>
+      <jobString>Analyze necrodermis matrix</jobString>
+    </value>
+  </Operation>
+  
+  <!-- Update research descriptions that mention chips (already partially done, but ensure consistency) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/description</xpath>
+    <value>
+      <description>Advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire gauss flux cores by using a mechanitor to summon a Doomsday Monolith threat.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/description</xpath>
+    <value>
+      <description>Superior knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire power core matrices by using a mechanitor to summon a Canoptek Tomb Stalker threat.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/description</xpath>
+    <value>
+      <description>The most advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire necrodermis matrices by using a mechanitor to summon an Overlord threat.</description>
+    </value>
+  </Operation>
+  
+  <!-- Update research story rules that mention chips -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/generalRules/rulesStrings/li[. = "subject_story->acquired a signal chip in shady circumstances"]</xpath>
+    <value>
+      <li>subject_story->acquired a gauss flux core in shady circumstances</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/generalRules/rulesStrings/li[. = "subject_story->found an intact signal chip in a diabolus wreck"]</xpath>
+    <value>
+      <li>subject_story->found an intact gauss flux core in a Doomsday Monolith wreck</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/generalRules/rulesStrings/li[. = "subject_story->bought a Powerfocus chip from a trader who didn't understand its worth"]</xpath>
+    <value>
+      <li>subject_story->bought a power core matrix from a trader who didn't understand its worth</li>
+    </value>
+  </Operation>
+  
+</Patch>
+
