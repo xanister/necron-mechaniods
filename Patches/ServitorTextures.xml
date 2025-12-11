@@ -46,11 +46,11 @@
     <xpath>Defs/PawnKindDef[defName="Mech_Lifter"]/lifeStages/li[2]/bodyGraphicData/maskPath</xpath>
   </Operation>
 
-  <!-- Mech_Constructoid - Replace with EM_Mechanoid_ServoSkull_Construction textures -->
+  <!-- Mech_Constructoid - Replace with ServoSkull01 textures -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Constructoid"]/lifeStages/li[1]/bodyGraphicData/texPath</xpath>
     <value>
-      <texPath>Things/Pawn/Mechanoid/EM_Mechanoid_ServoSkull_Construction</texPath>
+      <texPath>Things/Pawn/Mechanoid/ServoSkull01</texPath>
     </value>
   </Operation>
 
@@ -61,7 +61,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Constructoid"]/lifeStages/li[2]/bodyGraphicData/texPath</xpath>
     <value>
-      <texPath>Things/Pawn/Mechanoid/EM_Mechanoid_ServoSkull_Construction</texPath>
+      <texPath>Things/Pawn/Mechanoid/ServoSkull01</texPath>
     </value>
   </Operation>
 

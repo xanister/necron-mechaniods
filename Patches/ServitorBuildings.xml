@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update all mechanitor-related buildings to match Warhammer 40k lore -->
+  
+  <!-- BandNode -> Servitor Control Node -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BandNode"]/label</xpath>
+    <value>
+      <label>cybernetica control node</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BandNode"]/description</xpath>
+    <value>
+      <description>A cybernetica-band signal amplifier sanctified with binharic protocols. Control nodes must be tuned to a specific overseer. This will add 1 bandwidth to that overseer's total bandwidth, allowing them to control more cybernetica constructs.\n\nOnce a control node is constructed, it can be quickly tuned to an overseer through sacred rites. However, retuning a control node to a different overseer takes significantly longer, as the machine-spirit must be appeased and the binharic frequencies realigned.</description>
+    </value>
+  </Operation>
+  
+  <!-- MechbandAntenna -> Servitor Signal Antenna -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BurnoutMechlinkBooster"]/label</xpath>
+    <value>
+      <label>cybernetica signal antenna</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BurnoutMechlinkBooster"]/description</xpath>
+    <value>
+      <description>A cybernetica-band signaling device sanctified with forbidden binharic rites. When activated, it emits a powerful cybernetica signal pulse encoded with ancient protocols, which will attract an ultra-heavy feral Necron construct to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter's machine-spirit, so this building can only be used once.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BurnoutMechlinkBooster"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Summon Canoptek Tomb Stalker threat</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- MechbandDish -> Servitor Signal Dish -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechbandDish"]/label</xpath>
+    <value>
+      <label>cybernetica signal dish</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechbandDish"]/description</xpath>
+    <value>
+      <description>A cybernetica-band signaling device more powerful than the normal cybernetica signal antenna, enhanced with advanced binharic protocols. When activated, it emits an ultra-powerful cybernetica signal pulse encoded with forbidden rites, which will attract a Necron commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish's machine-spirit, so this building can only be used once.</description>
+    </value>
+  </Operation>
+  
+  <!-- ShuttleCrashed_Exitable_Mechanitor -> Crashed Overseer Ship -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ShuttleCrashed_Exitable_Mechanitor"]/label</xpath>
+    <value>
+      <label>crashed overseer ship</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ShuttleCrashed_Exitable_Mechanitor"]/description</xpath>
+    <value>
+      <description>A short-range ship used by an overseer to transport cybernetica constructs for low-orbit or planetary travel. The vessel's machine-spirit has been damaged in the crash, but its core systems remain functional.</description>
+    </value>
+  </Operation>
+  
+  <!-- MechBooster -> Servitor Enhancement Beacon -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechBooster"]/label</xpath>
+    <value>
+      <label>cybernetica enhancement beacon</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechBooster"]/description</xpath>
+    <value>
+      <description>A remote energy and computation enhancement device sanctified with binharic protocols. Any friendly cybernetica constructs in its effect radius will move and work faster, their machine-spirits invigorated by the beacon's sacred frequencies.</description>
+    </value>
+  </Operation>
+  
+  <!-- MechBoost Hediff -> Servitor Enhancement -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechBoost"]/label</xpath>
+    <value>
+      <label>cybernetica enhancement</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechBoost"]/description</xpath>
+    <value>
+      <description>This cybernetica construct's capacities have been boosted by a nearby cybernetica enhancement beacon, its machine-spirit invigorated by sacred binharic frequencies.</description>
+    </value>
+  </Operation>
+  
+</Patch>
+

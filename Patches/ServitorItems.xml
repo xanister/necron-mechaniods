@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update all mechanitor-related items to match Warhammer 40k lore -->
+  
+  <!-- SubcoreBasic -> Basic Cogitator Core -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreBasic"]/label</xpath>
+    <value>
+      <label>basic cogitator core</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreBasic"]/description</xpath>
+    <value>
+      <description>The simplest possible cybernetica cogitator core, this is a tiny psychodynamic substrate unit housing a dull machine-spirit. Since this is only a basic-tier cogitator core, it can only drive the simplest of servo skulls and light servitors.\n\nLike all cybernetica cogitator cores, it contains a machine-spirit with a psychic presence, albeit a very faint one. The spirit's consciousness has been reduced to basic directives and simple operational protocols, bound by sacred binharic rites.</description>
+    </value>
+  </Operation>
+  
+  <!-- SubcoreRegular -> Standard Cogitator Core -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreRegular"]/label</xpath>
+    <value>
+      <label>standard cogitator core</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreRegular"]/description</xpath>
+    <value>
+      <description>A standard-tier cybernetica cogitator core, this is a psychodynamic substrate unit supporting a thinking machine-spirit. This particular cogitator core is strong enough to drive standard-tier servitors and servo skulls.\n\nCybernetica constructs are more than simple robots, and this is more than a silicon computer. Its thinking, psychically-present machine-spirit makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind - a process that requires the sacrifice of a human consciousness to imprint the sacred binharic protocols.</description>
+    </value>
+  </Operation>
+  
+  <!-- SubcoreHigh -> High Cogitator Core -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreHigh"]/label</xpath>
+    <value>
+      <label>high cogitator core</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreHigh"]/description</xpath>
+    <value>
+      <description>A high-tier cybernetica cogitator core, this is a psychodynamic substrate unit which supports a sophisticated machine-spirit. This particular cogitator core is of the strongest tier, and can power complex ultra-heavy servitors and advanced servo constructs.\n\nThe machine-spirit inside this core approaches a live human in its complexity, though it is of a very different nature - bound by sacred Mechanicus protocols and binharic cant. Like any such mind, it has a noticeable psychic presence.\n\nThis cogitator core could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process - a forbidden rite that extracts the consciousness and binds it to the cogitator substrate through dark Mechanicus rituals.</description>
+    </value>
+  </Operation>
+  
+  <!-- MechanoidTransponder -> Servitor Control Transponder -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechanoidTransponder"]/label</xpath>
+    <value>
+      <label>cybernetica control transponder</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechanoidTransponder"]/description</xpath>
+    <value>
+      <description>A transponder micro-organ that connects an overseer to a cybernetica construct, even over a great distance. Overseers are capable of controlling many cybernetica constructs using a mix of psychic and electromagnetic signals encoded with sacred binharic protocols.\n\nDecrypting the transponder will allow you to pinpoint the location of the last overseer who controlled the construct, revealing their hidden base or vessel through the machine-spirit's lingering connection.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechanoidTransponder"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Decrypt transponder</useLabel>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechanoidTransponder"]/comps/li[@Class="CompProperties_InspectString"]/inspectString</xpath>
+    <value>
+      <inspectString>Can be decrypted at a research bench.\nSelect a colonist and right-click this to decrypt it.</inspectString>
+    </value>
+  </Operation>
+  
+  <!-- UnfinishedSubcore -> Unfinished Cogitator Core -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="UnfinishedSubcore"]/label</xpath>
+    <value>
+      <label>unfinished cogitator core</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="UnfinishedSubcore"]/description</xpath>
+    <value>
+      <description>An unfinished cybernetica cogitator core, still being encoded with binharic protocols and machine-spirit patterns.</description>
+    </value>
+  </Operation>
+  
+  <!-- SubcoreEncoder -> Cogitator Core Encoder -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreEncoder"]/label</xpath>
+    <value>
+      <label>cogitator core encoder</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreEncoder"]/description</xpath>
+    <value>
+      <description>A sanctified work station where an overseer can produce basic-tier cogitator cores through sacred binharic rites. Cogitator cores are the machine-spirits of cybernetica constructs, and one is required to produce any servo skull or servitor. Basic cogitator cores can only be used in simple basic-tier servo skulls.\n\nHigher tier cogitator cores can be created by building a cogitator softscanner or a cogitator ripscanner, though such devices are rare and require advanced Mechanicus knowledge.</description>
+    </value>
+  </Operation>
+  
+  <!-- SubcoreEncodingSpeed Stat -> Cogitator Core Encoding Speed -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StatDef[defName="SubcoreEncodingSpeed"]/label</xpath>
+    <value>
+      <label>cogitator core encoding speed</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StatDef[defName="SubcoreEncodingSpeed"]/description</xpath>
+    <value>
+      <description>A multiplier on how fast an overseer can create cogitator cores through sacred binharic rites.</description>
+    </value>
+  </Operation>
+  
+  <!-- DoBillsSubcoreEncoder WorkGiver -> Update label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorkGiverDef[defName="DoBillsSubcoreEncoder"]/label</xpath>
+    <value>
+      <label>make things at cogitator core encoder</label>
+    </value>
+  </Operation>
+  
+  <!-- SubcoreSoftscanner -> Cogitator Core Softscanner -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreSoftscanner"]/label</xpath>
+    <value>
+      <label>cogitator core softscanner</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreSoftscanner"]/description</xpath>
+    <value>
+      <description>A sanctified pod with thousands of tiny tissue probes and a high-energy brain scanner, blessed with Mechanicus rites. Once a person is inserted, the system uses the probes and scanner to sense a neuro-psychic pattern that it can analog-transfer to a new standard-tier cybernetica cogitator core through sacred binharic protocols. The person will be left temporarily sick, but unharmed.\n\nCogitator cores are cybernetica machine-spirits and producing any servo skull or servitor requires one. Standard-tier cogitator cores produced by this softscanner can only power standard-tier cybernetica constructs.\n\nHigher tier cogitator cores can be created by building a cogitator core ripscanner, though such devices are forbidden and require advanced Mechanicus knowledge.</description>
+    </value>
+  </Operation>
+  
+  <!-- SubcoreRipscanner -> Cogitator Core Ripscanner -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreRipscanner"]/label</xpath>
+    <value>
+      <label>cogitator core ripscanner</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SubcoreRipscanner"]/description</xpath>
+    <value>
+      <description>A forbidden pod with thousands of tissue probe injectors and an ultra-high-power vaporizing brain scanner, sanctified with dark Mechanicus rites. Once a person is inserted, the device will insert the probes into their body through the skin while the ripscanner chews through the brain, reading the reflected radiation and destroying the brain in the process. Ripscanning the mind generates a neuro-psychic pattern that the scanner can analog-transfer to a new high-tier cybernetica cogitator core through forbidden binharic protocols.\n\nCogitator cores are cybernetica machine-spirits and producing any servo skull or servitor requires one. High-tier cogitator cores produced by this ripscanner can only power high-tier cybernetica constructs. The use of such devices is considered heretical by many within the Mechanicus, as it requires the sacrifice of a human life to extract the consciousness.</description>
+    </value>
+  </Operation>
+  
+  <!-- ScanningSickness Hediff -> Update description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ScanningSickness"]/description</xpath>
+    <value>
+      <description>This person was scanned by a cogitator core softscanner to produce a cybernetica cogitator core. The high-energy scanning device has caused disturbances in their brain chemistry which will take time to resolve themselves. There won't be any long-term damage, though the experience of having one's consciousness pattern extracted is deeply unsettling.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ScanningSickness"]/label</xpath>
+    <value>
+      <label>scanning sickness</label>
+    </value>
+  </Operation>
+  
+</Patch>
+
