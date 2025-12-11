@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update Mechanitor scenario to match 40k lore and add red robe/hood -->
+  
+  <!-- Update scenario label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Mechanitor"]/label</xpath>
+    <value>
+      <label>The Tech-Priest</label>
+    </value>
+  </Operation>
+  
+  <!-- Update scenario description -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Mechanitor"]/description</xpath>
+    <value>
+      <description>You were an emissary of the Cult Mechanicus – tech-adept, magos, or bond-servant of the Machine God – traveling to a minor frontier world to reclaim lost archeotech. Instead, a miscalculated burn and a reactor cascade tore through your vessel, hurling you toward the surface in a coffin of scrap and screaming machine-spirits.\n\nYour pod survived, along with a handful of sacred schematics and a small cohort of battered servo-skulls. Their spirits are fractured, their housing damaged, but they still answer your signals… for now.\n\nAlone on this backwater rock, far from the great forge worlds, you will raise your own manufactorum from the dust. Strip the land, harvest ore, rebuild your steel servants and black out the stars with the smoke of industry – all in honor of the Omnissiah.\n\nNote: Since your starting character will lack some skills, this is a difficult scenario.</description>
+    </value>
+  </Operation>
+  
+  <!-- Update game start dialog -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Mechanitor"]/scenario/parts/li[@Class="ScenPart_GameStartDialog"]/text</xpath>
+    <value>
+      <text>You were an emissary of the Cult Mechanicus – tech-adept, magos, or bond-servant of the Machine God – traveling to a minor frontier world to reclaim lost archeotech.\n\nInstead, a miscalculated burn and a reactor cascade tore through your vessel, hurling you toward the surface in a coffin of scrap and screaming machine-spirits.\n\nYour pod survived, along with a handful of sacred schematics and a small cohort of battered servo-skulls. Their spirits are fractured, their housing damaged, but they still answer your signals… for now.\n\nAlone on this backwater rock, far from the great forge worlds, you will raise your own manufactorum from the dust. Strip the land, harvest ore, rebuild your steel servants and black out the stars with the smoke of industry – all in honor of the Omnissiah.</text>
+    </value>
+  </Operation>
+</Patch>
+

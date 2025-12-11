@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Replace mechanoid references in keyed strings with 40k alternatives -->
+  
+  <!-- Escape ship text -->
+  <EscapeShipFound>You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and legions of Necron warriors.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.</EscapeShipFound>
+  
+  <!-- Hibernate warning texts -->
+  <HibernateWarning>(*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and legions of Necron warriors.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.</HibernateWarning>
+  
+  <HibernateWarningStandalone>The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and legions of Necron warriors.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.</HibernateWarningStandalone>
+  
+  <!-- Area revealed with mechanoids -->
+  <AreaRevealedWithMechanoids>A new area has been revealed. It contains ancient, hostile Necron constructs.</AreaRevealedWithMechanoids>
+  
+  <!-- Mech cluster letters -->
+  <LetterLabelMechClusterArrived>Necrons arrived</LetterLabelMechClusterArrived>
+  <LetterMechClusterArrived>Necron warriors have arrived.</LetterMechClusterArrived>
+  
+  <!-- Messages about mechanoids -->
+  <MechanoidsMovingOn>The Necrons sense no more targets and are moving on.</MechanoidsMovingOn>
+  <MessageMustDesignateDeconstructibleMechCluster>You must defeat a Necron tomb complex before you can deconstruct it.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMechanoidsAssembled>Necron warriors have been assembled and will defend their complex.</MessageMechanoidsAssembled>
+  <MessageMechanoidsLeftToAssemble>Remaining Necron warriors to assemble</MessageMechanoidsLeftToAssemble>
+  <MessageMechanoidsReinforcementsDrop>Necron teleport beacon has summoned reinforcements in drop pods nearby.</MessageMechanoidsReinforcementsDrop>
+  <MessageMechClusterDefeated>Necron tomb complex structures have been defeated.</MessageMechClusterDefeated>
+  
+  <!-- Activator countdown -->
+  <ActivatorCountdownDesc>There is a countdown activator ticking down, preparing to awaken nearby Necron warriors.</ActivatorCountdownDesc>
+  <ActivatorCountdownDescMultiple>There are {0} countdown activators ticking down, preparing to awaken nearby Necron warriors.</ActivatorCountdownDescMultiple>
+  
+  <!-- Misc gameplay strings -->
+  <MechCluster>Necron awakening</MechCluster>
+  <DormantCompBeacon>Ready to teleport Necron warriors</DormantCompBeacon>
+  
+  <!-- Difficulty settings -->
+  <Difficulty_AllowBigThreats_Info>Allow major threats such as raids, infestations, manhunter packs, crashed Necron ships and more.</Difficulty_AllowBigThreats_Info>
+  <Difficulty_ButcherYieldFactor_Info>Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding Necron constructs.</Difficulty_ButcherYieldFactor_Info>
+  <MechanoidsDisabledContentWarning>Disabling {0} means less quest and spontaneous threat variety.</MechanoidsDisabledContentWarning>
+  
+</LanguageData>
+

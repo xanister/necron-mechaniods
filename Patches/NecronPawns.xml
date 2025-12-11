@@ -2,6 +2,20 @@
 <Patch>
   <!-- CREATURES -->
   <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Militor"]/label</xpath>
+    <value>
+      <label>Necron Warrior</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Militor"]</xpath>
+    <value>
+      <description>A basic infantry construct of the dynasty, animated by ancient necrodermis and driven by a fragment of a long-dead consciousness. The Necron Warrior advances with mechanical precision, its gauss flayer disintegrating organic matter into molecular dust with each silent pulse. These are the foot soldiers of an empire that predates humanity itself, awakened from eons of slumber to reclaim what was once theirs.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
     <xpath>/Defs/PawnKindDef[defName="Mech_Scyther"]/label</xpath>
     <value>
       <label>Flayed One</label>

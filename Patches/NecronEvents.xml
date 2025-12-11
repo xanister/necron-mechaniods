@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Replace mechanoid references in events with 40k alternatives -->
+  
+  <!-- MechCluster incident (Royalty DLC) -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+    <xpath>Defs/IncidentDef[defName="MechCluster"]/label</xpath>
+    <value>
+      <label>Necron awakening</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+    <xpath>Defs/IncidentDef[defName="MechCluster"]/letterLabel</xpath>
+    <value>
+      <letterLabel>Necron awakening</letterLabel>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+    <xpath>Defs/IncidentDef[defName="MechCluster"]/letterText</xpath>
+    <value>
+      <letterText>A Necron tomb complex is awakening nearby. The complex will be initially dormant, so you can take time to decide how to attack it.\n\nIt may remain dormant until disturbed, or it may have a timer or proximity activators.\n\nEven dormant tomb complexes aren't harmless. A dormant complex may assemble Necron warriors from time to time, or have some broader negative effect that must be dealt with eventually.</letterText>
+    </value>
+  </Operation>
+  
+  <!-- MechanoidSignal incident (Odyssey DLC) -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/IncidentDef[defName="GiveQuest_MechanoidSignal"]/label</xpath>
+    <value>
+      <label>Necron signal</label>
+    </value>
+  </Operation>
+  
+  
+</Patch>
+

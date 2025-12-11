@@ -22,23 +22,9 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]</xpath>
-    <value>
-      <factionIconPath>Factions/Necron/NecronIcon</factionIconPath>
-    </value>
-  </Operation>
-  
   <!-- FACTION NAMES -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="Mechanoid"]/factionNameMaker</xpath>
-    <value>
-      <factionNameMaker>FactionName_Mechanoids_Necron</factionNameMaker>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]</xpath>
     <value>
       <factionNameMaker>FactionName_Mechanoids_Necron</factionNameMaker>
     </value>

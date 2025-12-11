@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- ====================================================== -->
-  <!-- TEXTURE REPLACEMENTS - AGRIHAND TO SERVOSKULL PLANT  -->
-  <!-- ====================================================== -->
-
   <!-- Mech_Agrihand - Replace with EM_Mechanoid_ServoSkull_Plant textures -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Agrihand"]/lifeStages/li[1]/bodyGraphicData/texPath</xpath>
