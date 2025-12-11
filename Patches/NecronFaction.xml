@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="Mechanoid"]/label</xpath>
     <value>
-      <label>Necron Dynasty</label>
+      <label>Necron dynasty</label>
     </value>
   </Operation>
 
