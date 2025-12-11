@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <!-- RulePack for mechanoid/Necron faction names -->
@@ -8,7 +8,7 @@
       <rulesStrings>
         <!-- Top-level pattern for faction names -->
         <li>factionName->the [necronDynasty] dynasty</li>
-        <li>factionName->the tomb world of [necronWorld]</li>
+        <li>factionName->the Tomb World of [necronWorld]</li>
         <li>factionName->the legions of [necronLord]</li>
         <li>factionName->the [necronWorld] tomb legions</li>
 

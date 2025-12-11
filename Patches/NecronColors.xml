@@ -152,5 +152,20 @@
       <color>(140, 220, 180)</color>
     </value>
   </Operation>
+
+  <!-- Mech_Centurion (Necron Monolith/Wraith) - Dark metallic green -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Centurion"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Centurion"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
 </Patch>
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update mech gestator names and descriptions to match servitor/40k theme -->
+  
+  <!-- MechGestator (light mech gestator) -> Servitor Construction Bay -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechGestator"]/label</xpath>
+    <value>
+      <label>servitor construction bay</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechGestator"]/description</xpath>
+    <value>
+      <description>A sanctified vat of mechanite-rich fluid with sacred conduits for feeding in materials and nutrients. Tech-priests can use this construction bay to forge new servo skulls or restore damaged ones through binharic rites. This basic tier of construction bay is only capable of generating light servo skulls.\n\nThe process uses harsh chemicals which are stored in toxic wastepacks. Servitors must ritually remove the wastepacks from time to time to maintain the bay's purity.</description>
+    </value>
+  </Operation>
+  
+  <!-- LargeMechGestator (large mech gestator) -> Heavy Servitor Construction Bay -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="LargeMechGestator"]/label</xpath>
+    <value>
+      <label>heavy servitor construction bay</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="LargeMechGestator"]/description</xpath>
+    <value>
+      <description>A massive sanctified vat of mechanite-rich fluid with reinforced sacred conduits for feeding in materials and nutrients. Tech-priests can use this construction bay to forge new servitor units or restore damaged ones through advanced binharic rites. This tier of construction bay is capable of generating medium, heavy, and ultraheavy servitor constructs.\n\nThe process uses harsh chemicals which are stored in toxic wastepacks. Servitors must ritually remove the wastepacks from time to time to maintain the bay's purity.</description>
+    </value>
+  </Operation>
+</Patch>
+

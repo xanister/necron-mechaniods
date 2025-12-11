@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update all mechanitor-related apparel to match Warhammer 40k lore -->
+  
+  <!-- AirwireHeadset -> Basic Cogitator Headset -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]/label</xpath>
+    <value>
+      <label>basic cogitator headset</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]/description</xpath>
+    <value>
+      <description>A simple head-mounted comms computer that slightly enhances an overseer's control bandwidth through basic binharic protocols. This allows them to control more servitors.</description>
+    </value>
+  </Operation>
+  
+  <!-- ArrayHeadset -> Standard Cogitator Headset -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ArrayHeadset"]/label</xpath>
+    <value>
+      <label>standard cogitator headset</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ArrayHeadset"]/description</xpath>
+    <value>
+      <description>A head-mounted computer and signaling array that enhances an overseer's control bandwidth through advanced binharic protocols. This allows them to control more servitors.</description>
+    </value>
+  </Operation>
+  
+  <!-- IntegratorHeadset -> Advanced Cogitator Headset -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_IntegratorHeadset"]/label</xpath>
+    <value>
+      <label>advanced cogitator headset</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_IntegratorHeadset"]/description</xpath>
+    <value>
+      <description>An advanced head-mounted computer and signaling array that dramatically enhances an overseer's control bandwidth through superior binharic protocols. This allows the wearer to control many more servitors at once.</description>
+    </value>
+  </Operation>
+  
+  <!-- MechCommander Helmet -> Servitor Commander Helmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechCommander"]/label</xpath>
+    <value>
+      <label>servitor commander helmet</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechCommander"]/description</xpath>
+    <value>
+      <description>A plasteel-weave combat helmet designed for battle overseers. It is embedded with cogitators and signal enhancers that moderately increase the wearer's maximum control bandwidth through sacred binharic rites. This allows the overseer to control more servitors.</description>
+    </value>
+  </Operation>
+  
+  <!-- Mechlord Helmet -> Servitor Master Helmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechlordHelmet"]/label</xpath>
+    <value>
+      <label>servitor master helmet</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechlordHelmet"]/description</xpath>
+    <value>
+      <description>A heavy plasteel-weave helmet packed with overseer-assistance gear sanctified with forbidden binharic protocols. The servitor master helmet dramatically amplifies an overseer's bandwidth, but is somewhat less protective than dedicated heavy armor.</description>
+    </value>
+  </Operation>
+  
+  <!-- Control Pack -> Servitor Control Pack -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/label</xpath>
+    <value>
+      <label>servitor control pack</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/description</xpath>
+    <value>
+      <description>A backpack containing servitor control assist cogitators sanctified with binharic protocols. It allows an overseer to control one additional control group.</description>
+    </value>
+  </Operation>
+  
+  <!-- Bandwidth Pack -> Servitor Bandwidth Pack -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackBandwidth"]/label</xpath>
+    <value>
+      <label>servitor bandwidth pack</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackBandwidth"]/description</xpath>
+    <value>
+      <description>A backpack containing bandwidth-expansion cogitator and antenna sanctified with advanced binharic protocols. It can increase an overseer's maximum total bandwidth.</description>
+    </value>
+  </Operation>
+  
+  <!-- Mechlord Suit -> Servitor Master Suit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]/label</xpath>
+    <value>
+      <label>servitor master suit</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]/description</xpath>
+    <value>
+      <description>A power-assisted armor suit packed with overseer-assistance gear sanctified with forbidden binharic protocols. The servitor master suit dramatically amplifies an overseer's bandwidth, but is somewhat less protective than dedicated heavy armor. The suit's integrated cogitators and signal amplifiers allow the wearer to command vast legions of servitors through sacred Mechanicus rites.</description>
+    </value>
+  </Operation>
+  
+</Patch>
+

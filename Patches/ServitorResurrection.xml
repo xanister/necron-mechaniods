@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update resurrection recipe bills to match servitor/40k theme -->
+  
+  <!-- Update jobString for all resurrection recipes -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="ResurrectLightMech"]</xpath>
+    <value>
+      <jobString>Restoring servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="ResurrectMediumMech"]</xpath>
+    <value>
+      <jobString>Restoring servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="ResurrectHeavyMech"]</xpath>
+    <value>
+      <jobString>Restoring servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="ResurrectUltraheavyMech"]</xpath>
+    <value>
+      <jobString>Restoring servitor.</jobString>
+    </value>
+  </Operation>
+  
+  <!-- Update labels and descriptions -->
+  <!-- ResurrectLightMech - For servo skulls -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectLightMech"]/label</xpath>
+    <value>
+      <label>restore servo skull</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectLightMech"]/description</xpath>
+    <value>
+      <description>Restore a damaged servo skull through sacred binharic rites and mechanite infusion. So long as the servo skull's housing is not completely destroyed, its machine-spirit can be reawakened and its functions restored.</description>
+    </value>
+  </Operation>
+  
+  <!-- ResurrectMediumMech -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectMediumMech"]/label</xpath>
+    <value>
+      <label>restore medium servitor</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectMediumMech"]/description</xpath>
+    <value>
+      <description>Restore a damaged medium servitor unit through sacred binharic rites and mechanite infusion. So long as the servitor's chassis is not completely destroyed, its machine-spirit can be reawakened and its functions restored.</description>
+    </value>
+  </Operation>
+  
+  <!-- ResurrectHeavyMech -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectHeavyMech"]/label</xpath>
+    <value>
+      <label>restore heavy servitor</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectHeavyMech"]/description</xpath>
+    <value>
+      <description>Restore a damaged heavy servitor unit through sacred binharic rites and mechanite infusion. So long as the servitor's chassis is not completely destroyed, its machine-spirit can be reawakened and its functions restored.</description>
+    </value>
+  </Operation>
+  
+  <!-- ResurrectUltraheavyMech -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectUltraheavyMech"]/label</xpath>
+    <value>
+      <label>restore ultraheavy servitor</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectUltraheavyMech"]/description</xpath>
+    <value>
+      <description>Restore a damaged ultraheavy servitor construct through sacred binharic rites and mechanite infusion. So long as the servitor's chassis is not completely destroyed, its machine-spirit can be reawakened and its functions restored.</description>
+    </value>
+  </Operation>
+</Patch>
+

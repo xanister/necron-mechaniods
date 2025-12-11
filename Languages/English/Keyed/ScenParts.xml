@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Update scenario part language keys to match Warhammer 40k lore -->
+  
+  <ScenPart_StartingMech>Start with cybernetica</ScenPart_StartingMech>
+  <Mechanoid>Cybernetica</Mechanoid>
+  <RandomMech>random cybernetica</RandomMech>
+  <StartOverseenChance>Overseen chance</StartOverseenChance>
+  
+</LanguageData>
+

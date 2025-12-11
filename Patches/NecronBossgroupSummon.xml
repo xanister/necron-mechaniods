@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update diabolus summon action and related events to be 40k themed -->
+  
+  <!-- Comms Console: Update useLabel for diabolus summon -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CommsConsole"]/comps/li[@Class="CompProperties_Usable"][useLabel="Summon diabolus threat"]/useLabel</xpath>
+    <value>
+      <useLabel>Summon Doomsday Monolith threat</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- Update research description that mentions diabolus -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/description</xpath>
+    <value>
+      <description>Advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.\n\nYou can acquire gauss flux cores by using an overseer to summon a Doomsday Monolith threat.</description>
+    </value>
+  </Operation>
+  
+  <!-- Update warqueen summon label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BurnoutMechlinkBooster"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Summon Canoptek Tomb Stalker threat</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- Update apocriton summon label -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechbandDish"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Summon Overlord threat</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- Update research descriptions for warqueen and apocriton -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/description</xpath>
+    <value>
+      <description>Superior knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.\n\nYou can acquire power core matrices by using an overseer to summon a Canoptek Tomb Stalker threat.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/description</xpath>
+    <value>
+      <description>The most advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.\n\nYou can acquire necrodermis matrices by using an overseer to summon an Overlord threat.</description>
+    </value>
+  </Operation>
+  
+  <!-- Update quest script text to use 40k terminology -->
+  <!-- Match by position/index since text matching with newlines is unreliable -->
+  <!-- Counting only <li> elements: bossDefeatedLetterLabel=1, bossDefeatedStudyChipLetterText=2, bossDefeatedLetterText=3, defeated=4, manufacture=5, study=6 -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Bossgroup"]/questContentRules/rulesStrings/li[4]</xpath>
+    <value>
+      <li>defeated->The hostile Necron construct [escortees0_label] has been defeated and has dropped a [reward_label]!</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Bossgroup"]/questContentRules/rulesStrings/li[5]</xpath>
+    <value>
+      <li>manufacture->\n\nThe chip can also be used to create more advanced servitors.</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Bossgroup"]/questContentRules/rulesStrings/li[6]</xpath>
+    <value>
+      <li>study->\n\nYou can study the [reward_label] by selecting an overseer and right-clicking the chip. Studying a [reward_label] helps unlock higher tiers of servitor tech research.</li>
+    </value>
+  </Operation>
+  
+  <!-- Update bossgroup leader descriptions -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BossgroupDef[defName="Diabolus"]/leaderDescription</xpath>
+    <value>
+      <leaderDescription>The {LEADERKIND_label} is equipped with a gauss flux arc cannon. It is slow to charge, but when it fires it will disintegrate anything in the blast circle into molecular dust.</leaderDescription>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BossgroupDef[defName="Warqueen"]/leaderDescription</xpath>
+    <value>
+      <leaderDescription>The {LEADERKIND_label} has a built-in tomb spyder and is capable of deploying scarab swarms to overwhelm its enemies.</leaderDescription>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BossgroupDef[defName="Apocriton"]/leaderDescription</xpath>
+    <value>
+      <leaderDescription>The {LEADERKIND_label} is a psychically-present Necron commander who can reanimate recently-destroyed constructs and phase-jump long distances. It carries a long-range gauss blaster.</leaderDescription>
+    </value>
+  </Operation>
+  
+</Patch>
+

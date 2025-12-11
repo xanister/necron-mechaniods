@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update all remaining mechanitor references in research projects to match Warhammer 40k lore -->
+  
+  <!-- BasicMechtech - Update story rules -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/generalRules/rulesStrings/li[. = "subject->mechanoids"]</xpath>
+    <value>
+      <li>subject->cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->authored a children's book covering the basic types of mechanoid")]</xpath>
+    <value>
+      <li>subject_story->authored a children's book covering the basic types of cybernetica construct</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->was implanted with a prototype mechlink")]</xpath>
+    <value>
+      <li>subject_story->was implanted with a prototype servitor control link</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->replicated basic biomech techniques independently")]</xpath>
+    <value>
+      <li>subject_story->replicated basic cybernetica construction techniques independently</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->was mining an ancient exostrider wreck and found a mechlink preserved in the wreckage")]</xpath>
+    <value>
+      <li>subject_story->was mining an ancient Mechanicus wreck and found a servitor control link preserved in the wreckage</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_gerund->creating basic mechanoids")]</xpath>
+    <value>
+      <li>subject_gerund->creating basic cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+  <!-- StandardMechtech - Update story rules -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/generalRules/rulesStrings/li[. = "subject->mechanoids"]</xpath>
+    <value>
+      <li>subject->cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+  <!-- Note: "found an intact signal chip in a diabolus wreck" is already updated by ServitorChips.xml -->
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->survived a mechanoid hive assault")]</xpath>
+    <value>
+      <li>subject_story->survived a Necron tomb complex assault</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->collated reports of mechanoid attacks, looking for commonalities")]</xpath>
+    <value>
+      <li>subject_story->collated reports of Necron attacks, looking for commonalities</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_gerund->creating standard mechanoids")]</xpath>
+    <value>
+      <li>subject_gerund->creating standard cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+  <!-- HighMechtech - Update story rules -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/generalRules/rulesStrings/li[. = "subject->high tier mechanoids"]</xpath>
+    <value>
+      <li>subject->high tier cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->survived a War Queen assault on an Imperial world")]</xpath>
+    <value>
+      <li>subject_story->survived a Canoptek Tomb Stalker assault on an Imperial world</li>
+    </value>
+  </Operation>
+  
+  <!-- Note: "bought a Powerfocus chip from a trader who didn't understand its worth" is already updated by ServitorChips.xml -->
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->interrogated mechanitors captured in planetary raids")]</xpath>
+    <value>
+      <li>subject_story->interrogated overseers captured in planetary raids</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->built prototype mechanoid micro-organs for an offworld client")]</xpath>
+    <value>
+      <li>subject_story->built prototype cybernetica cogitator cores for an offworld client</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_gerund->creating high-tier mechanoids")]</xpath>
+    <value>
+      <li>subject_gerund->creating high-tier cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+  <!-- UltraMechtech - Update story rules -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/generalRules/rulesStrings/li[. = "subject->ultra-tier mechanoids"]</xpath>
+    <value>
+      <li>subject->ultra-tier cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->observed an apocriton resurrecting mechs from a safe distance")]</xpath>
+    <value>
+      <li>subject_story->observed an Overlord reanimating constructs from a safe distance</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->tapped into the deep psychic hatred that the apocritons feel towards humanity")]</xpath>
+    <value>
+      <li>subject_story->tapped into the deep psychic hatred that the Necrons feel towards humanity</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_gerund->creating ultra-tier mechanoids")]</xpath>
+    <value>
+      <li>subject_gerund->creating ultra-tier cybernetica constructs</li>
+    </value>
+  </Operation>
+  
+</Patch>
+

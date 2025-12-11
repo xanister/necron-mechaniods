@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update all mechanitor-related hediffs and implants to match Warhammer 40k lore -->
+  
+  <!-- Mechlink -> Servitor Control Link -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mechlink"]/label</xpath>
+    <value>
+      <label>servitor control link</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mechlink"]/description</xpath>
+    <value>
+      <description>A bionic implant that allows direct control of servitors through sacred binharic protocols. Servitor control links are used by tech-priests to control war servitors, and by overseers to control labor servitors. A person with a servitor control link is known as an overseer.\n\nServitor control links are self-installable. Pressed into the back of the throat, the unit injects itself through the flesh to clamp inside the base of the skull where it meets the spinal cord. There, it threads a web of ultrafine wires throughout nearby neuronal tissue to make the direct mental link between the user and the servitor control band.\n\nServitor control links are not simply devices for sending radio signals to servitors, because servitors are not merely robots. In addition to traditional computers, servitors have a dim psychic presence through their machine-spirits, so fluently controlling them requires a psychic connection. By linking overseer and servitor both psychically and electromagnetically, the control link permits deeper control than screen-and-button interfaces.\n\nSince the control link interlaces deep within the brain tissue, it can only be removed after death.\n\nNote: An overseer must be capable of smithing work to construct servitors.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mechlink"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Install {0_label} to become overseer</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- MechlinkImplant Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechlinkImplant"]/label</xpath>
+    <value>
+      <label>servitor control link</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechlinkImplant"]/description</xpath>
+    <value>
+      <description>A bionic implant that allows direct control of servitors through sacred binharic protocols. Servitor control links are used by tech-priests to control war servitors, and by overseers to control labor servitors. A person with a servitor control link is known as an overseer.\n\nServitor control links are self-installable. Pressed into the back of the throat, the unit injects itself through the flesh to clamp inside the base of the skull where it meets the spinal cord. There, it threads a web of ultrafine wires throughout nearby neuronal tissue to make the direct mental link between the user and the servitor control band.\n\nServitor control links are not simply devices for sending radio signals to servitors, because servitors are not merely robots. In addition to traditional computers, servitors have a dim psychic presence through their machine-spirits, so fluently controlling them requires a psychic connection. By linking overseer and servitor both psychically and electromagnetically, the control link permits deeper control than screen-and-button interfaces.\n\nSince the control link interlaces deep within the brain tissue, it can only be removed after death.\n\nNote: An overseer must be capable of smithing work to construct servitors.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechlinkImplant"]/descriptionShort</xpath>
+    <value>
+      <descriptionShort>A bionic implant that allows direct control of servitors. Can only be removed after death.</descriptionShort>
+    </value>
+  </Operation>
+  
+  <!-- BandNode Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BandNode"]/label</xpath>
+    <value>
+      <label>servitor control node (tuned)</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BandNode"]/description</xpath>
+    <value>
+      <description>This overseer's bandwidth is being increased thanks to the influence of a servitor control node structure, its connection enhanced through sacred binharic protocols.</description>
+    </value>
+  </Operation>
+  
+  <!-- ControlSublink -> Servitor Control Sublink -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ControlSublink"]/label</xpath>
+    <value>
+      <label>servitor control sublink (standard)</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ControlSublink"]/description</xpath>
+    <value>
+      <description>A neural implant which gives an overseer an additional control group through standard binharic protocols. Additionally, the sublink slightly increases the work speed of any servitors controlled by the overseer.\n\nThis standard-tier sublink can only increase the control group count up to 3. To go higher, a higher-tier sublink implant must be used.\n\nIt can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its effect.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ControlSublink"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Implant sublink</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- ControlSublinkHigh -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ControlSublinkHigh"]/label</xpath>
+    <value>
+      <label>servitor control sublink (high)</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ControlSublinkHigh"]/description</xpath>
+    <value>
+      <description>A neural implant which gives an overseer an additional control group through advanced binharic protocols. Additionally, the sublink slightly increases the work speed of any servitors controlled by the overseer.\n\nThis high-tier implant can increase the control group count up to 6.\n\nIt can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its effect.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ControlSublinkHigh"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Implant high sublink</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- ControlSublinkImplant Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ControlSublinkImplant"]/label</xpath>
+    <value>
+      <label>servitor control sublink</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ControlSublinkImplant"]/description</xpath>
+    <value>
+      <description>An implant which increases an overseer's control group count and the work speed of an overseer's servitors through binharic protocols.\n\nThis implant can be installed up to 6 times to increase its effect.</description>
+    </value>
+  </Operation>
+  
+  <!-- RemoteRepairer -> Remote Servitor Repairer -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RemoteRepairer"]/label</xpath>
+    <value>
+      <label>remote servitor repairer</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RemoteRepairer"]/description</xpath>
+    <value>
+      <description>A servitor control link upgrade which allows the overseer to repair servitors from a distance through sacred binharic rites. The user links with the servitor and uses their own brain to psychically guide its self-repair mechanites.\n\nThis implant can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its range.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RemoteRepairer"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Implant {0_label}</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- RemoteRepairerImplant Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RemoteRepairerImplant"]/label</xpath>
+    <value>
+      <label>remote servitor repairer</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RemoteRepairerImplant"]/description</xpath>
+    <value>
+      <description>A servitor control link upgrade which allows the overseer to repair servitors from a distance through sacred binharic rites. The user links with the servitor and uses their own brain to psychically guide its self-repair mechanites.\n\nThis implant can be installed up to 3 times to increase its range.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RemoteRepairerImplant"]/descriptionShort</xpath>
+    <value>
+      <descriptionShort>An implant which allows the user to repair servitors from a distance. This can be installed up to 3 times.</descriptionShort>
+    </value>
+  </Operation>
+  
+  <!-- RemoteRepair Ability -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="RemoteRepair"]/label</xpath>
+    <value>
+      <label>remote repair</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="RemoteRepair"]/description</xpath>
+    <value>
+      <description>Remotely repair a servitor through sacred binharic rites. The overseer links with the servitor and uses their brain to provide detailed guidance for its self-repair mechanites beyond its own psychic capacity. This allows the servitor to make progress in rapidly healing damage.</description>
+    </value>
+  </Operation>
+  
+  <!-- MechFormfeeder -> Servitor Construction Accelerator -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechFormfeeder"]/label</xpath>
+    <value>
+      <label>servitor construction accelerator</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechFormfeeder"]/description</xpath>
+    <value>
+      <description>An implant which increases the speed at which an overseer can produce servitors in a servitor construction bay. The accelerator optimizes the behavior of the mechanites in the servitor forming tank through advanced binharic protocols.\n\nThis implant can be self-installed in the same way as the servitor control link.\n\nThis implant can be installed up to 6 times to increase its effect.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MechFormfeeder"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Implant {0_label}</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- MechFormfeederImplant Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechFormfeederImplant"]/label</xpath>
+    <value>
+      <label>servitor construction accelerator</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechFormfeederImplant"]/description</xpath>
+    <value>
+      <description>An implant which increases the speed at which an overseer can produce servitors in a servitor construction bay. The accelerator optimizes the behavior of the mechanites in the servitor forming tank through advanced binharic protocols.\n\nThis implant can be self-installed in the same way as the servitor control link.\n\nThis implant can be installed up to 6 times to increase its effect.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MechFormfeederImplant"]/descriptionShort</xpath>
+    <value>
+      <descriptionShort>An implant which lets an overseer construct new servitors faster. This can be installed up to 6 times to increase the effect.</descriptionShort>
+    </value>
+  </Operation>
+  
+  <!-- RemoteShielder -> Remote Servitor Shielder -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RemoteShielder"]/label</xpath>
+    <value>
+      <label>remote servitor shielder</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RemoteShielder"]/description</xpath>
+    <value>
+      <description>An implant which allows the overseer to place a personal defense shield on a servitor through sacred binharic rites. The overseer must continuously focus on the servitor in order to maintain the shield.\n\nPlacing a shield at a distance requires a substantial amount of focused energy. It can be used to save a servitor at a critical moment.\n\nThis implant can be self-installed in the same way as the servitor control link.\n\nThis implant can be installed up to 3 times to increase its range and shield energy.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RemoteShielder"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Implant {0_label}</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- RemoteShielderImplant Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RemoteShielderImplant"]/label</xpath>
+    <value>
+      <label>remote servitor shielder</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RemoteShielderImplant"]/description</xpath>
+    <value>
+      <description>An implant which allows the overseer to place a personal defense shield on a servitor through sacred binharic rites. The overseer must continuously focus on the servitor in order to maintain the shield. It can be used to save a servitor at a critical moment.\n\nThis implant can be installed up to 3 times to increase its range and shield energy.</description>
+    </value>
+  </Operation>
+  
+  <!-- RemoteShield Ability -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="RemoteShield"]/label</xpath>
+    <value>
+      <label>remote shield</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="RemoteShield"]/description</xpath>
+    <value>
+      <description>Remotely project a personal defense shield onto a servitor through sacred binharic rites. The shield stops incoming damage, but also prevents shooting out, so this can be useful even when cast on enemies. The overseer must continuously focus on the servitor in order to maintain the shield.</description>
+    </value>
+  </Operation>
+  
+  <!-- RepairProbe -> Servitor Repair Probe -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RepairProbe"]/label</xpath>
+    <value>
+      <label>servitor repair probe</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RepairProbe"]/description</xpath>
+    <value>
+      <description>An implant which increases the speed at which an overseer can repair a servitor through advanced binharic protocols. This does not affect the overall energy needed to repair a servitor.\n\nThe implant allows the overseer to plug directly into a servitor while they are repairing it. This allows them to more quickly understand the servitor's injuries, and better-direct the servitor's self-repair mechanites to assist with the repair.\n\nThis implant can be self-installed in the same way as the servitor control link.\n\nThis implant can be installed up to 6 times to increase its effect.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RepairProbe"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>Implant {0_label}</useLabel>
+    </value>
+  </Operation>
+  
+  <!-- RepairProbeImplant Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RepairProbeImplant"]/label</xpath>
+    <value>
+      <label>servitor repair probe</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RepairProbeImplant"]/description</xpath>
+    <value>
+      <description>An implant which increases an overseer's servitor repair speed through advanced binharic protocols. This does not affect the overall energy needed to repair a servitor.\n\nThe implant allows the overseer to plug directly into a servitor while repairing it and better-direct the servitor's self-repair mechanites.\n\nThis implant can be installed up to 6 times to increase its effect.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="RepairProbeImplant"]/descriptionShort</xpath>
+    <value>
+      <descriptionShort>An implant which lets an overseer repair servitors faster. This can be installed up to 6 times.</descriptionShort>
+    </value>
+  </Operation>
+  
+</Patch>
+

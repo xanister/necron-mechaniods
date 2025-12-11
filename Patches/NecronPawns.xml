@@ -2,6 +2,20 @@
 <Patch>
   <!-- CREATURES -->
   <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Militor"]/label</xpath>
+    <value>
+      <label>Necron Warrior</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Militor"]</xpath>
+    <value>
+      <description>A basic infantry construct of the dynasty, animated by ancient necrodermis and driven by a fragment of a long-dead consciousness. The Necron Warrior advances with mechanical precision, its gauss flayer disintegrating organic matter into molecular dust with each silent pulse. These are the foot soldiers of an empire that predates humanity itself, awakened from eons of slumber to reclaim what was once theirs.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
     <xpath>/Defs/PawnKindDef[defName="Mech_Scyther"]/label</xpath>
     <value>
       <label>Flayed One</label>
@@ -110,6 +124,20 @@
     <xpath>Defs/PawnKindDef[defName="Mech_Termite_Breach"]</xpath>
     <value>
       <description>A heavy support construct that crawls forward on multiple limbs, surrounded by swarms of smaller repair and cutting drones. The Canoptek Spyder specializes in tearing down walls and emplacements, opening breaches for other units to pour through.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Centurion"]/label</xpath>
+    <value>
+      <label>Necron Pylon</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Centurion"]</xpath>
+    <value>
+      <description>An ultraheavy defensive construct that anchors the dynasty's battle lines. The Necron Pylon projects a powerful shield barrier that protects nearby units while its integrated point-defense turret tracks and eliminates threats with terrifying precision. This massive construct moves with ponderous inevitability, its ancient systems humming with the power of eons.</description>
     </value>
   </Operation>
 </Patch>
