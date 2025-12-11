@@ -42,7 +42,7 @@
   <CannotSummon>Cannot summon {0} threat</CannotSummon>
   <ReadyToSummonThreat>{0} threat ready to summon</ReadyToSummonThreat>
   <LetterLabelBossgroupCallerUnlocked>Summon {LEADER_label} possible</LetterLabelBossgroupCallerUnlocked>
-  <LetterBossgroupCallerUnlocked>You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>You can now build a {PARENT_label} which an overseer can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
   
 </LanguageData>
 

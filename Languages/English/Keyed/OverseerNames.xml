@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Replace "mechanitor" with "overseer" in all keyed strings -->
+  
+  <!-- Alerts -->
+  <AlertMechLacksOverseerDesc>One or more of your servitors is not controlled. Connect your servitors to an overseer with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a servitor could go feral. When this happens they will join {0} and become hostile to you. If one servitor goes feral, it will bring other nearby servitors with it.\n\nFeral servitors cannot be restored at a servitor construction bay when killed.</AlertMechLacksOverseerDesc>
+  <AlertMechMissingBodyPartDesc>One or more of your servitors are missing a body part. An overseer can repair lost parts.\n\nThe servitors with lost body parts are</AlertMechMissingBodyPartDesc>
+  <AlertMechNeedsRepairDesc>Order an overseer to repair them, or select the servitor and turn on auto-repair. Repairing a servitor requires energy. If a servitor's energy is so low it can't move, someone must carry it to a recharging station.</AlertMechNeedsRepairDesc>
+  <AlertBossgroupIncomingDesc>Signaled by your overseer, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile Necron constructs will arrive in a few hours or days.</AlertBossgroupIncomingDesc>
+  
+  <!-- Messages -->
+  <MessageMechanitorCasketOpened>{0} was an overseer. You can remove {0_possessive} {1_label} and use it on a colonist.</MessageMechanitorCasketOpened>
+  <MessageMechanitorLostControlOfMech>{0_nameDef} has lost control of a {1_kindBase} servitor</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef} has disconnected from {1_nameDef} servitor.</MessageMechanitorDisconnectedFromMech>
+  
+  <!-- Misc Gameplay -->
+  <BandwidthGizmoTip>An overseer can only oversee a servitor if there is enough bandwidth to do so. Each servitor consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the overseer to them, or by equipping special overseer apparel.</BandwidthGizmoTip>
+  <BandNodeTuningDesc>Tune this band node to an overseer. Tuning will take {0} to complete.</BandNodeTuningDesc>
+  <BandNodeRetuningDesc>Retune this band node to another overseer. Retuning will take {0} to complete.</BandNodeRetuningDesc>
+  <GestatingMechRequiresMechanitor>Requires {PAWN_nameDef} to continue gestating</GestatingMechRequiresMechanitor>
+  <GestatedMechRequiresMechanitor>Requires {PAWN_nameDef} to complete</GestatedMechRequiresMechanitor>
+  <RequiresMechanitor>requires overseer</RequiresMechanitor>
+  <RemoteMechShieldTip>A remote shield projected by an overseer. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP</RemoteMechShieldTip>
+  
+  <!-- Float Menu -->
+  <NotAMechanitor>Not an overseer</NotAMechanitor>
+  
+  <!-- Gameplay Commands -->
+  <CommandAutoRepairDesc>If active, an overseer will automatically repair this servitor. Repairing a servitor drains its energy.</CommandAutoRepairDesc>
+  <CommandSelectOverseerDesc>Select the overseer who is the overseer of this servitor.</CommandSelectOverseerDesc>
+  <CommandSelectAllMechsDesc>Select all servitors controlled by this overseer.</CommandSelectAllMechsDesc>
+  
+  <!-- ITabs -->
+  <RecipeRequiresMechanitor>The recipe {0} requires an overseer to work on it. None of your colonists are overseers, so nobody will do this bill.</RecipeRequiresMechanitor>
+  
+  <!-- Designators -->
+  <DesignatorMechControlGroupDesc>Assign the selected servitor(s) to another control group under their current overseer.</DesignatorMechControlGroupDesc>
+  
+  <!-- Dialogs -->
+  <AnyMechanitor>Any overseer</AnyMechanitor>
+  <ConfirmInstallMechlink_Smithing>An overseer must be capable of smithing to create servitors.\n\nAre you sure you want to continue?</ConfirmInstallMechlink_Smithing>
+  <ConfirmInstallMechlink_Intellectual>An overseer must be capable of intellectual tasks to unlock servitor tech research.\n\nAre you sure you want to continue?</ConfirmInstallMechlink_Intellectual>
+  <MechanitorLeftMapWithoutMechs>The following servitors have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe servitors will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map?</MechanitorLeftMapWithoutMechs>
+  <CaravanLacksMechMechanitorWarning>Your caravan contains a servitor but not their overseer. You will have limited control over the servitor when you reach your destination.</CaravanLacksMechMechanitorWarning>
+  
+  <!-- Letters -->
+  <LetterMechlinkInstalled>{PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now an overseer and can create and control servitors.\n\nResearch basic servitor tech to get started.\n\n(*SectionTitle)Creating servitors:(/SectionTitle) Your overseer can create servitors at a production building called a servitor construction bay.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Overseers can control as many servitors as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Overseers control servitors in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort} [... omitted end of long line]</LetterMechlinkInstalled>
+  <LetterCommsConsoleSpawned>An overseer can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} Necron construct. Be prepared, {LEADER_label} Necron constructs are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterBossgroupCallerUnlocked>You can now build a {PARENT_label} which an overseer can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterLabelMechanitorCasketOpened>{PAWN_nameDef}'s mechlink available</LetterLabelMechanitorCasketOpened>
+  
+</LanguageData>
+

@@ -13,7 +13,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="SignalChip"]/description</xpath>
     <value>
-      <description>A crystalline data-core extracted from a Doomsday Monolith's gauss flux arc cannon. The core contains binharic protocols for synchronizing servitor control networks and is necessary to produce certain advanced types of servitors and equipment.\n\nA mechanitor can study this core to help unlock higher tiers of servitor tech research.</description>
+      <description>A crystalline data-core extracted from a Doomsday Monolith's gauss flux arc cannon. The core contains binharic protocols for synchronizing servitor control networks and is necessary to produce certain advanced types of servitors and equipment.\n\nAn overseer can study this core to help unlock higher tiers of servitor tech research.</description>
     </value>
   </Operation>
   
@@ -56,7 +56,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="PowerfocusChip"]/description</xpath>
     <value>
-      <description>An energy-focusing cogitator matrix salvaged from a Canoptek Tomb Stalker's power distribution systems. The matrix contains sacred binharic algorithms for channeling and amplifying power through servitor networks. It is necessary to produce certain advanced types of servitors and equipment.\n\nA mechanitor can study this matrix to help unlock higher tiers of servitor tech research.</description>
+      <description>An energy-focusing cogitator matrix salvaged from a Canoptek Tomb Stalker's power distribution systems. The matrix contains sacred binharic algorithms for channeling and amplifying power through servitor networks. It is necessary to produce certain advanced types of servitors and equipment.\n\nAn overseer can study this matrix to help unlock higher tiers of servitor tech research.</description>
     </value>
   </Operation>
   
@@ -99,7 +99,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="NanostructuringChip"]/description</xpath>
     <value>
-      <description>A molecular-restructuring data-matrix extracted from an Overlord's necrodermis core. The matrix contains forbidden binharic protocols for manipulating matter at the atomic level, allowing for the creation of self-repairing servitor chassis and advanced equipment. It is necessary to produce certain advanced servitors and equipment.\n\nA mechanitor can study this matrix to help unlock higher tiers of servitor tech research.</description>
+      <description>A molecular-restructuring data-matrix extracted from an Overlord's necrodermis core. The matrix contains forbidden binharic protocols for manipulating matter at the atomic level, allowing for the creation of self-repairing servitor chassis and advanced equipment. It is necessary to produce certain advanced servitors and equipment.\n\nAn overseer can study this matrix to help unlock higher tiers of servitor tech research.</description>
     </value>
   </Operation>
   
@@ -135,21 +135,21 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/description</xpath>
     <value>
-      <description>Advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire gauss flux cores by using a mechanitor to summon a Doomsday Monolith threat.</description>
+      <description>Advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.\n\nYou can acquire gauss flux cores by using an overseer to summon a Doomsday Monolith threat.</description>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/description</xpath>
     <value>
-      <description>Superior knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire power core matrices by using a mechanitor to summon a Canoptek Tomb Stalker threat.</description>
+      <description>Superior knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.\n\nYou can acquire power core matrices by using an overseer to summon a Canoptek Tomb Stalker threat.</description>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/description</xpath>
     <value>
-      <description>The most advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced mechanitor technologies.\n\nYou can acquire necrodermis matrices by using a mechanitor to summon an Overlord threat.</description>
+      <description>The most advanced knowledge of servitor construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.\n\nYou can acquire necrodermis matrices by using an overseer to summon an Overlord threat.</description>
     </value>
   </Operation>
   

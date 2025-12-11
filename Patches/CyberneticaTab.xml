@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update mechs tab label to "cybernetica" -->
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MainButtonDef[defName="Mechs"]/label</xpath>
+    <value>
+      <label>cybernetica</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MainButtonDef[defName="Mechs"]/description</xpath>
+    <value>
+      <description>View and organize the colony's servitors and cybernetic constructs.</description>
+    </value>
+  </Operation>
+  
+</Patch>
+
