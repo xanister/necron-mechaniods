@@ -61,7 +61,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Constructoid"]/lifeStages/li[2]/bodyGraphicData/texPath</xpath>
     <value>
-      <texPath>Things/Pawn/Mechanoid/ServoSkull01</texPath>
+      <texPath>Things/Pawn/Mechanoid/EM_Mechanoid_ServoSkull_Construction</texPath>
     </value>
   </Operation>
 
@@ -73,7 +73,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Tunneler"]/lifeStages/li[1]/bodyGraphicData/texPath</xpath>
     <value>
-      <texPath>Things/Pawn/Mechanoid/EM_Mechanoid_ServoSkull_Mining</texPath>
+      <texPath>Things/Pawn/Mechanoid/EM_Mechanoid_ServoSkull_Construction</texPath>
     </value>
   </Operation>
 
@@ -119,7 +119,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Paramedic"]/lifeStages/li[1]/bodyGraphicData/texPath</xpath>
     <value>
-      <texPath>Things/Pawn/Mechanoid/ServoSkullMedi</texPath>
+      <texPath>Things/Pawn/Mechanoid/EM_Mechanoid_ServoSkull_Medi</texPath>
     </value>
   </Operation>
 
@@ -130,7 +130,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Paramedic"]/lifeStages/li[2]/bodyGraphicData/texPath</xpath>
     <value>
-      <texPath>Things/Pawn/Mechanoid/ServoSkullMedi</texPath>
+      <texPath>Things/Pawn/Mechanoid/EM_Mechanoid_ServoSkull_Medi</texPath>
     </value>
   </Operation>
 
