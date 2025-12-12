@@ -24,14 +24,5 @@
     </value>
   </Operation>
   
-  <!-- MechanoidSignal incident (Odyssey DLC) -->
-  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
-    <xpath>Defs/IncidentDef[defName="GiveQuest_MechanoidSignal"]/label</xpath>
-    <value>
-      <label>Necron signal</label>
-    </value>
-  </Operation>
-  
-  
 </Patch>
 
