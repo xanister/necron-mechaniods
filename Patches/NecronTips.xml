@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Update Biotech loading tip about mechanitors -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/TipSetDef[defName="BiotechTips"]/tips/li[@TKey="CallBossgroups"]</xpath>
+    <value>
+      <li TKey="CallBossgroups">Tech-Priests can summon powerful Necron constructs through sacred rites. Deploy them in battle yourself - or lure them into your enemies' positions.</li>
+    </value>
+  </Operation>
+
+  <!-- Update Core loading tip about mechanoid psychic sensitivity -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/TipSetDef[defName="GameplayTips"]/tips/li[@TKey="MechanoidPsychicSensitivity"]</xpath>
+    <value>
+      <li TKey="MechanoidPsychicSensitivity">Necron constructs have some psychic sensitivity despite their mechanical nature. Use a psychic lance on one to turn the tide of battle.</li>
+    </value>
+  </Operation>
+
+</Patch>
+

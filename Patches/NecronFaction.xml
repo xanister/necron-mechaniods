@@ -30,4 +30,19 @@
     </value>
   </Operation>
 
+  <!-- PAWN PLURAL FOR RAID MESSAGES -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnsPlural</xpath>
+    <value>
+      <pawnsPlural>Necrons</pawnsPlural>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnSingular</xpath>
+    <value>
+      <pawnSingular>Necron</pawnSingular>
+    </value>
+  </Operation>
+
 </Patch>

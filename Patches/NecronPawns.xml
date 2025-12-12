@@ -140,4 +140,32 @@
       <description>An ultraheavy defensive construct that anchors the dynasty's battle lines. The Necron Pylon projects a powerful shield barrier that protects nearby units while its integrated point-defense turret tracks and eliminates threats with terrifying precision. This massive construct moves with ponderous inevitability, its ancient systems humming with the power of eons.</description>
     </value>
   </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Cyclops"]/label</xpath>
+    <value>
+      <label>Doomstalker</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Cyclops"]</xpath>
+    <value>
+      <description>A towering sentinel construct dominated by a massive optical array that glows with baleful energy. The Doomstalker locks onto shielded targets with methodical precision, then unleashes a devastating barrage of shield-piercing beams that strip away defenses before annihilating the target beneath.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName="Mech_Tesseron"]/label</xpath>
+    <value>
+      <label>Gauss Destroyer</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Tesseron"]</xpath>
+    <value>
+      <description>A mobile weapons platform armed with a devastating gauss beam array. The Gauss Destroyer sweeps its weapon across the battlefield, the searing energy beam capable of piercing even the thickest armor and igniting energy shields in cascading failures. While vulnerable to direct assault, its long-range firepower makes it a terror on the open field.</description>
+    </value>
+  </Operation>
 </Patch>

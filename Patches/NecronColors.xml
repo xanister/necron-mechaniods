@@ -167,5 +167,35 @@
       <color>(140, 220, 180)</color>
     </value>
   </Operation>
+
+  <!-- Mech_Cyclops (Doomstalker) - Dark metallic green (Odyssey DLC) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Cyclops"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Cyclops"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <!-- Mech_Tesseron (Gauss Destroyer) - Dark metallic green (Biotech DLC) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Tesseron"]/lifeStages/li[1]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mech_Tesseron"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
 </Patch>
 

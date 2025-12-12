@@ -15,7 +15,7 @@
   
   <!-- Mech cluster letters -->
   <LetterLabelMechClusterArrived>Necrons arrived</LetterLabelMechClusterArrived>
-  <LetterMechClusterArrived>Necron warriors have arrived.</LetterMechClusterArrived>
+  <LetterMechClusterArrived>Necrons have arrived.</LetterMechClusterArrived>
   
   <!-- Messages about mechanoids -->
   <MechanoidsMovingOn>The Necrons sense no more targets and are moving on.</MechanoidsMovingOn>
