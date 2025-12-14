@@ -7,4 +7,7 @@
     <li>1.6</li>
   </supportedVersions>
   <description>Replaces Mechanoids with Necron equivalents.</description>
+  <loadAfter>
+    <li>inkpack.WarhammerRimworld</li>
+  </loadAfter>
 </ModMetaData>
