@@ -28,7 +28,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="SubcoreRegular"]/description</xpath>
     <value>
-      <description>A standard-tier cybernetica cogitator core, this is a psychodynamic substrate unit supporting a thinking machine-spirit. This particular cogitator core is strong enough to drive standard-tier servitors and servo skulls.\n\nCybernetica constructs are more than simple robots, and this is more than a silicon computer. Its thinking, psychically-present machine-spirit makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind - a process that requires the sacrifice of a human consciousness to imprint the sacred binharic protocols.</description>
+      <description>A standard-tier cybernetica cogitator core, this is a psychodynamic substrate unit supporting a thinking machine-spirit. This particular cogitator core is strong enough to drive standard-tier servitors and servo skulls.\n\nCybernetica constructs are more than simple robots, and this is more than a silicon computer. Its thinking, noospheric machine-spirit makes it more adaptable than purely silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind - a process that requires the sacrifice of a human consciousness to imprint the sacred binharic protocols.</description>
     </value>
   </Operation>
   
@@ -175,4 +175,3 @@
   </Operation>
   
 </Patch>
-

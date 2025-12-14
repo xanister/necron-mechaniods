@@ -12,9 +12,8 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/TipSetDef[defName="GameplayTips"]/tips/li[@TKey="MechanoidPsychicSensitivity"]</xpath>
     <value>
-      <li TKey="MechanoidPsychicSensitivity">Necron constructs have some psychic sensitivity despite their mechanical nature. Use a psychic lance on one to turn the tide of battle.</li>
+      <li TKey="MechanoidPsychicSensitivity">Necron constructs are soulless machines and resist warp influence. Use EMP weapons and disruption effects to disable them and break their advance.</li>
     </value>
   </Operation>
 
 </Patch>
-

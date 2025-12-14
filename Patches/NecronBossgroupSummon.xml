@@ -91,9 +91,8 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/BossgroupDef[defName="Apocriton"]/leaderDescription</xpath>
     <value>
-      <leaderDescription>The {LEADERKIND_label} is a psychically-present Necron commander who can reanimate recently-destroyed constructs and phase-jump long distances. It carries a long-range gauss blaster.</leaderDescription>
+      <leaderDescription>The {LEADERKIND_label} is a Necron commander who can reanimate recently-destroyed constructs and phase-jump long distances. It carries a long-range gauss blaster.</leaderDescription>
     </value>
   </Operation>
   
 </Patch>
-

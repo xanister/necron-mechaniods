@@ -132,7 +132,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->tapped into the deep psychic hatred that the apocritons feel towards humanity")]</xpath>
     <value>
-      <li>subject_story->tapped into the deep psychic hatred that the Necrons feel towards humanity</li>
+      <li>subject_story->studied the cold, ancient hatred that the Necrons hold towards humanity</li>
     </value>
   </Operation>
   
@@ -144,4 +144,3 @@
   </Operation>
   
 </Patch>
-
