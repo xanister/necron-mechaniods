@@ -172,7 +172,7 @@
   <!-- Designators -->
   <DesignatorMechControlGroupDesc>Assign the selected cybernetica construct(s) to another control group under their current overseer.</DesignatorMechControlGroupDesc>
   
-  <ChooseMechColor>Choose cybernetica construct color...</ChooseMechColor>
+  <ChooseMechColor>Choose cybernetica color...</ChooseMechColor>
   
   <MechCanBuildThis>However, a {0} can build this.</MechCanBuildThis>
   

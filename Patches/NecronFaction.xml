@@ -13,14 +13,6 @@
       <description>Ancient, skeletal android warriors who have slumbered for eons. They seek to reclaim the galaxy that was once theirs.</description>
     </value>
   </Operation>
-    
-  <!-- ICONS -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]/factionIconPath</xpath>
-    <value>
-      <factionIconPath>Factions/Necron/NecronIcon</factionIconPath>
-    </value>
-  </Operation>
 
   <!-- FACTION NAMES -->
   <Operation Class="PatchOperationReplace">
