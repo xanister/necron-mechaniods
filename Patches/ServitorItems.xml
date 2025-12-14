@@ -58,7 +58,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="MechanoidTransponder"]/description</xpath>
     <value>
-      <description>A transponder micro-organ that connects an overseer to a cybernetica construct, even over a great distance. Overseers are capable of controlling many cybernetica constructs using a mix of psychic and electromagnetic signals encoded with sacred binharic protocols.\n\nDecrypting the transponder will allow you to pinpoint the location of the last overseer who controlled the construct, revealing their hidden base or vessel through the machine-spirit's lingering connection.</description>
+      <description>A transponder micro-organ that connects a tech-priest to a cybernetica construct, even over a great distance. Tech-priests are capable of controlling many cybernetica constructs using a mix of psychic and electromagnetic signals encoded with sacred binharic protocols.\n\nDecrypting the transponder will allow you to pinpoint the location of the last tech-priest who controlled the construct, revealing their hidden base or vessel through the machine-spirit's lingering connection.</description>
     </value>
   </Operation>
   
@@ -102,7 +102,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="SubcoreEncoder"]/description</xpath>
     <value>
-      <description>A sanctified work station where an overseer can produce basic-tier cogitator cores through sacred binharic rites. Cogitator cores are the machine-spirits of cybernetica constructs, and one is required to produce any servo skull or servitor. Basic cogitator cores can only be used in simple basic-tier servo skulls.\n\nHigher tier cogitator cores can be created by building a cogitator softscanner or a cogitator ripscanner, though such devices are rare and require advanced Mechanicus knowledge.</description>
+      <description>A sanctified work station where a tech-priest can produce basic-tier cogitator cores through sacred binharic rites. Cogitator cores are the machine-spirits of cybernetica constructs, and one is required to produce any servo skull or servitor. Basic cogitator cores can only be used in simple basic-tier servo skulls.\n\nHigher tier cogitator cores can be created by building a cogitator softscanner or a cogitator ripscanner, though such devices are rare and require advanced Mechanicus knowledge.</description>
     </value>
   </Operation>
   
@@ -117,7 +117,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/StatDef[defName="SubcoreEncodingSpeed"]/description</xpath>
     <value>
-      <description>A multiplier on how fast an overseer can create cogitator cores through sacred binharic rites.</description>
+      <description>A multiplier on how fast a tech-priest can create cogitator cores through sacred binharic rites.</description>
     </value>
   </Operation>
   

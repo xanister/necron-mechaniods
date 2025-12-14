@@ -68,25 +68,25 @@
     </value>
   </Operation>
 
-    <!-- Lifter -> Logistics servitor -->
+    <!-- Lifter -> Logistics servo skull -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Lifter"]/label</xpath>
     <value>
-      <label>logistics servitor</label>
+      <label>logistics servo skull</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Lifter"]/description</xpath>
     <value>
-      <description>A logistics servitor fitted with grav-clamps, load-balancer cogitators, and reinforced manipulator arms. It moves through storerooms and cargo bays with mechanical precision, quietly rearranging crates, shells, and supplies according to inscrutable optimization rites dictated by its machine-spirit. The servitor's former human consciousness has been reduced to a simple directive: maintain order, maximize efficiency, and serve the Omnissiah's will through perfect logistics.</description>
+      <description>A logistics servo skull fitted with grav-clamps, load-balancer cogitators, and reinforced manipulator arms. It moves through storerooms and cargo bays with mechanical precision, quietly rearranging crates, shells, and supplies according to inscrutable optimization rites dictated by its machine-spirit. Its former human consciousness has been reduced to a simple directive: maintain order, maximize efficiency, and serve the Omnissiah's will through perfect logistics.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Lifter"]/label</xpath>
     <value>
-      <label>logistics servitor</label>
+      <label>logistics servo skull</label>
     </value>
   </Operation>
 

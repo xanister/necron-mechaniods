@@ -102,7 +102,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Lifter"]/label</xpath>
     <value>
-      <label>construct logistics servitor</label>
+      <label>construct logistics servo skull</label>
     </value>
   </Operation>
   

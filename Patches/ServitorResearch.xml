@@ -25,13 +25,6 @@
     </value>
   </Operation>
   
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/description</xpath>
-    <value>
-      <description>Advanced knowledge of cybernetica construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.</description>
-    </value>
-  </Operation>
-  
   <!-- HighMechtech -> High Servitor Tech -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/label</xpath>
@@ -40,25 +33,11 @@
     </value>
   </Operation>
   
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/description</xpath>
-    <value>
-      <description>Superior knowledge of cybernetica construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.</description>
-    </value>
-  </Operation>
-  
   <!-- UltraMechtech -> Ultra Servitor Tech -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/label</xpath>
     <value>
       <label>ultra cybernetica tech</label>
-    </value>
-  </Operation>
-  
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/description</xpath>
-    <value>
-      <description>The most advanced knowledge of cybernetica construction protocols. This research is no longer used for crafting, but may be required for other advanced overseer technologies.</description>
     </value>
   </Operation>
   
