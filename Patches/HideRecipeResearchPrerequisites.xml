@@ -138,5 +138,20 @@
       </value>
     </match>
   </Operation>
+  
+  <!-- VGE Hunter and Astropede (Vanilla Gravship Expanded) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="VGE_HunterRecipe"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="VGE_AstropedeRecipe"]</xpath>
+    <value>
+      <researchPrerequisite Inherit="False"></researchPrerequisite>
+    </value>
+  </Operation>
 </Patch>
 

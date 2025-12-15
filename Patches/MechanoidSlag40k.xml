@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Replace mechanoid slag chunks with 40k Necron debris -->
+  
+  <!-- Mechanoid Slag Chunk -> Necron Debris -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ChunkMechanoidSlag"]/label</xpath>
+    <value>
+      <label>Necron debris</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ChunkMechanoidSlag"]/description</xpath>
+    <value>
+      <description>The shattered remains of a destroyed Necron. While useless in its current form, it can be smelted to recover steel. The cold, lifeless metal still bears the marks of ancient xenos technology.</description>
+    </value>
+  </Operation>
+  
+</Patch>
+

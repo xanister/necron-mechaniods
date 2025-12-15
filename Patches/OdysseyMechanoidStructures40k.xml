@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Vanilla Odyssey Mechanoid Structures - Update to 40k Necron terminology -->
+  
+  <!-- Mechanoid Relay -> Necron Relay -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay"]/label</xpath>
+    <value>
+      <label>Necron relay</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay"]/description</xpath>
+    <value>
+      <description>A node that coordinates signals across a planet-wide Necron communication network. The command signals originate at the tomb complex - the center of Necron intelligence.</description>
+    </value>
+  </Operation>
+  
+  <!-- Crashed Mechanoid Relay -> Crashed Necron Relay -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay_Crashed"]/label</xpath>
+    <value>
+      <label>crashed Necron relay</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay_Crashed"]/description</xpath>
+    <value>
+      <description>A node that coordinates signals across a planet-wide Necron communication network. The command signals originate at the tomb complex - the center of Necron intelligence.</description>
+    </value>
+  </Operation>
+  
+  <!-- Relay Stabilizer -> Necron Relay Stabilizer -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechStabilizer"]/label</xpath>
+    <value>
+      <label>Necron relay stabilizer</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechStabilizer"]/description</xpath>
+    <value>
+      <description>A shield projector that protects a nearby Necron relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option.</description>
+    </value>
+  </Operation>
+  
+  <!-- Mechanoid Processor -> Necron Processor -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechanoidProcessor"]/label</xpath>
+    <value>
+      <label>Necron processor</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechanoidProcessor"]/description</xpath>
+    <value>
+      <description>A powerful Necron cogitator system. These ancient machines process vast amounts of data for the tomb complex's command network.</description>
+    </value>
+  </Operation>
+  
+  <!-- Update CompProperties_MechRelay inspect strings -->
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay"]/comps/li[@Class="CompProperties_MechRelay"]/activeInspectString</xpath>
+    <value>
+      <activeInspectString>Hack or destroy relay stabilizers to obtain gravcore.</activeInspectString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay"]/comps/li[@Class="CompProperties_MechRelay"]/destabilizationMessage</xpath>
+    <value>
+      <destabilizationMessage>The Necron relay has begun to destabilize.</destabilizationMessage>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay"]/comps/li[@Class="CompProperties_MechRelay"]/crashedLetterLabel</xpath>
+    <value>
+      <crashedLetterLabel>Necron relay crash</crashedLetterLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
+    <xpath>Defs/ThingDef[defName="MechRelay"]/comps/li[@Class="CompProperties_MechRelay"]/crashedLetterText</xpath>
+    <value>
+      <crashedLetterText>The Necron relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile Necrons will soon arrive in response to the relay going offline.</crashedLetterText>
+    </value>
+  </Operation>
+  
+</Patch>
+
