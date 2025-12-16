@@ -138,7 +138,7 @@
     </value>
   </Operation>
 
-  <!-- Mech_Militor (Warrior) - Light combat mechanoid -->
+  <!-- Mech_Militor (Canoptek Spyder) - Multi-legged canoptek construct -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/PawnKindDef[defName="Mech_Militor"]/lifeStages/li[1]/bodyGraphicData</xpath>
     <value>
@@ -213,4 +213,3 @@
     </value>
   </Operation>
 </Patch>
-

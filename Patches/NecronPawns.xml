@@ -1,171 +1,386 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- CREATURES -->
+  <!-- Militor -> Canoptek Spyder -->
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Militor"]/label</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_Militor"]/label</xpath>
     <value>
-      <label>Necron Warrior</label>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Militor"]</xpath>
-    <value>
-      <description>A basic infantry construct of the dynasty, animated by ancient necrodermis and driven by a fragment of a long-dead consciousness. The Necron Warrior advances with mechanical precision, its gauss flayer disintegrating organic matter into molecular dust with each silent pulse. These are the foot soldiers of an empire that predates humanity itself, awakened from eons of slumber to reclaim what was once theirs.</description>
+      <label>canoptek spyder</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Scyther"]/label</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_Militor"]/description</xpath>
     <value>
-      <label>Flayed One</label>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Scyther"]</xpath>
-    <value>
-      <description>A deranged close-combat construct whose skeletal frame is draped in tattered scraps of flesh and metal. The Flayed One stalks forward in eerie silence before erupting into a frenzy of slashing blades, carving foes apart at terrifying speed.</description>
+      <description>A multi-legged canoptek construct that serves both as a support unit and a devastating combatant. The canoptek spyder can repair damaged necron warriors, construct scarab swarms, and unleash particle beamers that disintegrate enemies. Its powerful claws can tear through fortifications, and its glimmering green energy fields repair fallen necrons, bringing them back to the fight. The spyder moves with insectile grace, its multiple limbs allowing it to navigate any terrain as it ensures the dynasty's forces remain operational.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Lancer"]/label</xpath>
+    <xpath>Defs/PawnKindDef[defName="Mech_Militor"]/label</xpath>
     <value>
-      <label>Deathmark</label>
+      <label>canoptek spyder</label>
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Lancer"]</xpath>
+
+  <!-- Lancer -> Necron Warrior -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Lancer"]/label</xpath>
     <value>
-      <description>A precision execution construct, patiently stalking from extreme range. The Deathmark locks onto a target with unnatural focus before unleashing a single, devastating shot that can punch through armor and bone alike.</description>
+      <label>necron warrior</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_CentipedeBlaster"]/label</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_Lancer"]/description</xpath>
     <value>
-      <label>Heavy Destroyer</label>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_CentipedeBlaster"]</xpath>
-    <value>
-      <description>A massive floating gun-platform bristling with ancient weaponry. Slow but relentless, the Heavy Destroyer saturates the battlefield with searing energy beams designed to tear apart fortifications, vehicles and clustered infantry.</description>
+      <description>The most numerous unit of the Necron legions, a necron warrior is an immortal automaton animated by a captured soul. Its gauss flayer projects streams of disintegrating energy that strip matter apart at the molecular level. These relentless infantry march forward in perfect lockstep, their green eyes glowing with cold, merciless purpose as they erase all life from the battlefield.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Pikeman"]/label</xpath>
+    <xpath>Defs/PawnKindDef[defName="Mech_Lancer"]/label</xpath>
     <value>
-      <label>Immortal</label>
+      <label>necron warrior</label>
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Pikeman"]</xpath>
+
+  <!-- Scyther -> Necron Flayed One -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Scyther"]/label</xpath>
     <value>
-      <description>Elite line infantry of the dynasty, built on heavier frames and clad in reinforced alloy. Immortals advance with methodical, unhurried steps, laying down disciplined volleys of fire that grind resistance into dust.</description>
+      <label>necron flayed one</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Diabolus"]/label</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_Scyther"]/description</xpath>
     <value>
-      <label>Doomsday Monolith</label>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Diabolus"]</xpath>
-    <value>
-      <description>A towering, floating obelisk of obsidian metal inscribed with alien sigils. The Doomsday Monolith projects waves of annihilating energy, turning the battlefield into a killing ground where few living things survive for long.</description>
+      <description>A necron warrior driven insane by the flawed bio-transfer process, reduced to a twisted, crawling horror. Flayed ones retain fragments of their living memories, manifesting as a terrible hunger for flesh they can no longer consume. Their rending claws can slice through ceramite, and they move with unnerving speed, dragging themselves across the battlefield on all fours as they seek to flay the skin from their victims and wear it as a macabre trophy.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Warqueen"]/label</xpath>
+    <xpath>Defs/PawnKindDef[defName="Mech_Scyther"]/label</xpath>
     <value>
-      <label>Canoptek Tomb Stalker</label>
+      <label>necron flayed one</label>
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Warqueen"]</xpath>
+
+  <!-- Pikeman -> Necron Deathmark -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Pikeman"]/label</xpath>
     <value>
-      <description>A predatory tunnel-hunter that slithers beneath the soil before erupting amidst its prey. The Canoptek Tomb Stalker coordinates lesser constructs as it tears through lines, shredding isolated targets with bladed limbs and segmented mandibles.</description>
+      <label>necron deathmark</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Apocriton"]/label</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_Pikeman"]/description</xpath>
     <value>
-      <label>Overlord</label>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Apocriton"]</xpath>
-    <value>
-      <description>The ruling will of the dynasty given form: a regal, heavily armored commander surrounded by crackling fields of energy. The Overlord directs allied constructs with ruthless efficiency, returning from apparent destruction again and again to complete its grim designs.</description>
+      <description>A necron sniper specialist, the deathmark materializes from dimensional pockets to eliminate high-value targets with surgical precision. Its synaptic disintegrator fires bolts of phase-shifting energy that pass through cover and armor alike, striking at the molecular bonds that hold matter together. The deathmark's glowing green eyes mark those it has targeted for death, and it will hunt them across the battlefield with implacable patience.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Termite_Breach"]/label</xpath>
+    <xpath>Defs/PawnKindDef[defName="Mech_Pikeman"]/label</xpath>
     <value>
-      <label>Canoptek Spyder</label>
+      <label>necron deathmark</label>
+    </value>
+  </Operation>
+
+
+  <!-- CentipedeBlaster -> Necron Immortal (Gauss Blaster) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_CentipedeBlaster"]/label</xpath>
+    <value>
+      <label>necron immortal</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Termite_Breach"]</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_CentipedeBlaster"]</xpath>
     <value>
-      <description>A heavy support construct that crawls forward on multiple limbs, surrounded by swarms of smaller repair and cutting drones. The Canoptek Spyder specializes in tearing down walls and emplacements, opening breaches for other units to pour through.</description>
+      <description>An elite necron immortal, an ancient warrior equipped with heavier armor and a gauss blaster capable of devastating salvos. Necron immortals form the backbone of the dynasty's infantry, their improved cognitive matrices allowing them to adapt tactics mid-battle. This variant is armed with a gauss blaster that fires streams of green energy, atomizing targets with molecular disassembly. Their reinforced necrodermis renders them nearly impervious to small arms fire. They advance in phalanx formation, an unbreachable wall of living metal and annihilation.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Centurion"]/label</xpath>
+    <xpath>Defs/PawnKindDef[defName="Mech_CentipedeBlaster"]/label</xpath>
     <value>
-      <label>Necron Pylon</label>
+      <label>necron immortal</label>
+    </value>
+  </Operation>
+
+
+  <!-- CentipedeGunner -> Necron Immortal (Tesla Carbine) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_CentipedeGunner"]/label</xpath>
+    <value>
+      <label>necron immortal</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Centurion"]</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_CentipedeGunner"]</xpath>
     <value>
-      <description>An ultraheavy defensive construct that anchors the dynasty's battle lines. The Necron Pylon projects a powerful shield barrier that protects nearby units while its integrated point-defense turret tracks and eliminates threats with terrifying precision. This massive construct moves with ponderous inevitability, its ancient systems humming with the power of eons.</description>
+      <description>An elite necron immortal, an ancient warrior equipped with heavier armor and a tesla carbine that unleashes cascading arcs of energy. Necron immortals form the backbone of the dynasty's infantry, their improved cognitive matrices allowing them to adapt tactics mid-battle. This variant is armed with a tesla carbine that sends lightning-like discharges leaping between targets, the energy arcing from victim to victim. Their reinforced necrodermis renders them nearly impervious to small arms fire. They advance in phalanx formation, an unbreachable wall of living metal and crackling lightning.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Cyclops"]/label</xpath>
+    <xpath>Defs/PawnKindDef[defName="Mech_CentipedeGunner"]/label</xpath>
     <value>
-      <label>Doomstalker</label>
+      <label>necron immortal</label>
+    </value>
+  </Operation>
+
+
+  <!-- CentipedeBurner -> Lokhust Heavy Destroyer -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_CentipedeBurner"]/label</xpath>
+    <value>
+      <label>lokhust heavy destroyer</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Cyclops"]</xpath>
+    <xpath>Defs/ThingDef[defName="Mech_CentipedeBurner"]</xpath>
     <value>
-      <description>A towering sentinel construct dominated by a massive optical array that glows with baleful energy. The Doomstalker locks onto shielded targets with methodical precision, then unleashes a devastating barrage of shield-piercing beams that strip away defenses before annihilating the target beneath.</description>
+      <description>A heavily-modified destroyer equipped with an enmitic exterminator that unleashes devastating streams of disintegrating particles. Lokhust heavy destroyers are cursed necrons who rejected their mortal forms entirely, transferring their consciousness into hovering chassis that drift above the battlefield. Their heavy weapons can level buildings and turn entire squads to dust in seconds, and they fire with the cold precision of beings who have killed for millions of years.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[defName="Mech_Tesseron"]/label</xpath>
+    <xpath>Defs/PawnKindDef[defName="Mech_CentipedeBurner"]/label</xpath>
     <value>
-      <label>Gauss Destroyer</label>
+      <label>lokhust heavy destroyer</label>
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Mech_Tesseron"]</xpath>
+
+  <!-- Termite -> Skorpekh Destroyer -->
+  <!-- Note: Mech_Termite only exists as ThingDef in Core, no PawnKindDef -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Termite"]/label</xpath>
     <value>
-      <description>A mobile weapons platform armed with a devastating gauss beam array. The Gauss Destroyer sweeps its weapon across the battlefield, the searing energy beam capable of piercing even the thickest armor and igniting energy shields in cascading failures. While vulnerable to direct assault, its long-range firepower makes it a terror on the open field.</description>
+      <label>skorpekh destroyer</label>
     </value>
   </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Termite"]/description</xpath>
+    <value>
+      <description>A necron destroyer obsessed with the annihilation of all life, its lower body replaced with a powerful mechanical chassis that allows it to move with predatory speed. The skorpekh destroyer wields hyperphase blades that exist partially out of phase, allowing them to slice through any material. Its thresher blades can carve through multiple enemies in a single sweep, and its hate-filled consciousness drives it to seek out the densest concentrations of living flesh to rend apart.</description>
+    </value>
+  </Operation>
+
+
+  <!-- WarUrchin -> Canoptek Scarab Swarm (variant) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_WarUrchin"]/label</xpath>
+    <value>
+      <label>canoptek scarab swarm</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_WarUrchin"]/description</xpath>
+    <value>
+      <description>A swarm of diminutive canoptek scarabs deployed directly into combat. These bio-mechanical constructs crawl and scuttle in a coordinated horde, their monomolecular mandibles capable of stripping flesh from bone in seconds. Though individually fragile, their numbers and speed make them a terrifying threat, swarming over enemies in a wave of metallic chittering as they reduce their victims to scattered bones and dust.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_WarUrchin"]/label</xpath>
+    <value>
+      <label>canoptek scarab swarm</label>
+    </value>
+  </Operation>
+
+
+  <!-- Legionary -> Necron Lychguard -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Legionary"]/label</xpath>
+    <value>
+      <label>necron lychguard</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Legionary"]/description</xpath>
+    <value>
+      <description>Elite bodyguards of the necron nobility, lychguard are ancient warriors who have served their lords for millions of years. Armed with warscythes or dispersion shields and hyperphase swords, they form an unbreakable shield wall around their masters. Their dispersion shields can deflect incoming fire, and their hyperphase weapons cut through any armor. They move with the perfect synchronization of warriors who have fought together for eons, their loyalty absolute and their purpose singular: protect the dynasty's rulers at any cost.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Legionary"]/label</xpath>
+    <value>
+      <label>necron lychguard</label>
+    </value>
+  </Operation>
+
+
+  <!-- Tesseron -> Necron Plasmancer -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Tesseron"]/label</xpath>
+    <value>
+      <label>necron plasmancer</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Tesseron"]/description</xpath>
+    <value>
+      <description>A necron cryptek specializing in the manipulation of plasma energy, the plasmancer wields a plasmacyte that fires devastating streams of superheated matter. These techno-sorcerers can shape plasma into destructive beams that pierce through armor and ignite everything in their path. Their command protocols allow them to coordinate other necron units, and their plasma weapons can melt through the thickest fortifications, leaving only molten slag in their wake.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Tesseron"]/label</xpath>
+    <value>
+      <label>necron plasmancer</label>
+    </value>
+  </Operation>
+
+
+  <!-- Scorcher -> Hexmark Destroyer -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Scorcher"]/label</xpath>
+    <value>
+      <label>hexmark destroyer</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Scorcher"]/description</xpath>
+    <value>
+      <description>A multi-armed necron destroyer equipped with six enmitic disintegrator pistols, capable of firing simultaneously at multiple targets. The hexmark destroyer represents the destroyer cult's obsession with perfect efficiency in killing - why fire one shot when you can fire six? Its advanced targeting systems allow it to lock onto and eliminate multiple enemies in the blink of an eye, and it revels in the destruction it brings, its multiple glowing eyes tracking every potential victim on the battlefield.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Scorcher"]/label</xpath>
+    <value>
+      <label>hexmark destroyer</label>
+    </value>
+  </Operation>
+
+  <!-- Apocriton -> Necron Overlord -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Apocriton"]/label</xpath>
+    <value>
+      <label>necron overlord</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Apocriton"]/description</xpath>
+    <value>
+      <description>A powerful necron overlord, the commander of a dynasty's legions. These immortal lords have ruled for millions of years, their consciousness housed in bodies of living metal that have survived countless wars. The overlord's resurrection orb can reanimate fallen necrons, bringing them back to continue the fight. Its presence on the battlefield radiates cold, calculated hatred, and its command protocols ensure the entire army moves as a single, unstoppable entity. To face an overlord is to face the will of an ancient, undying empire made manifest.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Apocriton"]/label</xpath>
+    <value>
+      <label>necron overlord</label>
+    </value>
+  </Operation>
+
+
+  <!-- Centurion -> Necron Lord -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Centurion"]/label</xpath>
+    <value>
+      <label>necron lord</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Centurion"]/description</xpath>
+    <value>
+      <description>A necron lord, a powerful commander and warrior of the dynasty. These immortal nobles lead the necron legions with tactical brilliance honed over millions of years of warfare. The lord's resurrection orb can reanimate fallen warriors, and its warscythe cuts through any material. Its chronometron can manipulate local time, slowing enemies while the lord moves with impossible speed. The lord's very presence inspires nearby necrons to fight with renewed vigor, and its tactical acumen makes it a devastating force on any battlefield.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Centurion"]/label</xpath>
+    <value>
+      <label>necron lord</label>
+    </value>
+  </Operation>
+
+
+  <!-- Warqueen -> Necron Overlord (command variant) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Warqueen"]/label</xpath>
+    <value>
+      <label>necron overlord</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Warqueen"]/description</xpath>
+    <value>
+      <description>A powerful necron overlord equipped with a command barge and canoptek construct production facilities. This ancient lord has ruled for millions of years, its consciousness housed in a body of living metal that has survived countless wars. The overlord can manufacture and deploy canoptek scarabs directly into battle, ensuring a constant stream of reinforcements. Its presence on the battlefield radiates cold, calculated hatred, and its command protocols ensure the entire army moves as a single, unstoppable entity. Even more than other overlords, this one embodies the necron's mastery over death itself, manufacturing new warriors as fast as enemies can destroy them.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Warqueen"]/label</xpath>
+    <value>
+      <label>necron overlord</label>
+    </value>
+  </Operation>
+
+
+  <!-- Diabolus -> Lokhust Heavy Destroyer (siege variant) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Diabolus"]/label</xpath>
+    <value>
+      <label>lokhust heavy destroyer</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Diabolus"]/description</xpath>
+    <value>
+      <description>A massive lokhust heavy destroyer equipped with an enmitic exterminator siege cannon. This heavily-modified destroyer has rejected its mortal form entirely, transferring its consciousness into a hovering chassis that drifts above the battlefield like a metallic specter of death. Its siege weapon can level entire fortifications, turning stone and metal to dust in devastating salvos. The destroyer's hate-filled consciousness drives it to seek out the largest concentrations of enemies, and it fires with the cold precision of a being who has dedicated millions of years to perfecting the art of annihilation.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Diabolus"]/label</xpath>
+    <value>
+      <label>lokhust heavy destroyer</label>
+    </value>
+  </Operation>
+
+
+  <!-- Cyclops -> Triarch Praetorian -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Cyclops"]/label</xpath>
+    <value>
+      <label>triarch praetorian</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mech_Cyclops"]/description</xpath>
+    <value>
+      <description>An elite triarch praetorian, one of the personal guard of the Silent King himself. These ancient warriors serve as judges and enforcers of the triarch's will, ensuring all dynasties follow the ancient codes. Armed with rod of covenant weapons that fire devastating energy blasts, praetorians can hover above the battlefield, unleashing volleys that can penetrate even the strongest shields. Their unique design allows them to operate independently of dynastic command protocols, and they strike with the authority of beings who answer only to the highest power in the necron empire.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Cyclops"]/label</xpath>
+    <value>
+      <label>triarch praetorian</label>
+    </value>
+  </Operation>
+
 </Patch>
