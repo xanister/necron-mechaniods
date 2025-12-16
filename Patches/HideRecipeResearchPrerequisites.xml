@@ -7,40 +7,55 @@
   <!-- By adding researchPrerequisite with Inherit="False" and empty value, we override the inherited prerequisite -->
   
   <!-- Light mech recipes (inherit BasicMechtech from BaseMechanoidRecipe) -->
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="Militor"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Militor"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
   <!-- Medium mech recipes (inherit StandardMechtech from MediumMechanoidRecipe) -->
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="Scyther"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Scyther"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="Lancer"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Lancer"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="Pikeman"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Pikeman"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="Scorcher"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Scorcher"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
   <!-- Heavy mech recipes -->
@@ -75,18 +90,24 @@
     </match>
   </Operation>
   
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="Diabolus"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Diabolus"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
   <!-- Walker recipes (inherit UltraMechtech from WalkerMediumMechanoidRecipe) -->
@@ -111,11 +132,14 @@
   </Operation>
   
   <!-- SuperHeavy recipes (inherit UltraMechtech from SuperHeavyMechanoidRecipe) -->
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="Warqueen"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Warqueen"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
   <Operation Class="PatchOperationConditional">
@@ -140,18 +164,24 @@
   </Operation>
   
   <!-- VGE Hunter and Astropede (Vanilla Gravship Expanded) -->
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="VGE_HunterRecipe"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="VGE_HunterRecipe"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
   
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/RecipeDef[defName="VGE_AstropedeRecipe"]</xpath>
-    <value>
-      <researchPrerequisite Inherit="False"></researchPrerequisite>
-    </value>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="VGE_AstropedeRecipe"]</xpath>
+      <value>
+        <researchPrerequisite Inherit="False"></researchPrerequisite>
+      </value>
+    </match>
   </Operation>
 </Patch>
 

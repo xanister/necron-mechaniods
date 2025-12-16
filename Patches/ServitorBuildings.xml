@@ -32,13 +32,6 @@
     </value>
   </Operation>
   
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="BurnoutMechlinkBooster"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
-    <value>
-      <useLabel>Summon Canoptek Tomb Stalker threat</useLabel>
-    </value>
-  </Operation>
-  
   <!-- MechbandDish -> Servitor Signal Dish -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="MechbandDish"]/label</xpath>
