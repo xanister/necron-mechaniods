@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Militor -> Canoptek Spyder -->
+  <!-- Militor -> Necron Flayed One -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Militor"]/label</xpath>
     <value>
-      <label>canoptek spyder</label>
+      <label>necron flayed one</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Militor"]/description</xpath>
     <value>
-      <description>A multi-legged canoptek construct that serves both as a support unit and a devastating combatant. The canoptek spyder can repair damaged necron warriors, construct scarab swarms, and unleash particle beamers that disintegrate enemies. Its powerful claws can tear through fortifications, and its glimmering green energy fields repair fallen necrons, bringing them back to the fight. The spyder moves with insectile grace, its multiple limbs allowing it to navigate any terrain as it ensures the dynasty's forces remain operational.</description>
+      <description>A necron warrior driven insane by the flawed bio-transfer process, reduced to a twisted, crawling horror. Flayed ones retain fragments of their living memories, manifesting as a terrible hunger for flesh they can no longer consume. Their rending claws can slice through ceramite, and they move with unnerving speed, dragging themselves across the battlefield on all fours as they seek to flay the skin from their victims and wear it as a macabre trophy.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Militor"]/label</xpath>
     <value>
-      <label>canoptek spyder</label>
+      <label>necron flayed one</label>
     </value>
   </Operation>
 
@@ -46,25 +46,25 @@
   </Operation>
 
 
-  <!-- Scyther -> Necron Flayed One -->
+  <!-- Scyther -> Canoptek Spyder -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Scyther"]/label</xpath>
     <value>
-      <label>necron flayed one</label>
+      <label>canoptek spyder</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Scyther"]/description</xpath>
     <value>
-      <description>A necron warrior driven insane by the flawed bio-transfer process, reduced to a twisted, crawling horror. Flayed ones retain fragments of their living memories, manifesting as a terrible hunger for flesh they can no longer consume. Their rending claws can slice through ceramite, and they move with unnerving speed, dragging themselves across the battlefield on all fours as they seek to flay the skin from their victims and wear it as a macabre trophy.</description>
+      <description>A multi-legged canoptek construct that serves both as a support unit and a devastating combatant. The canoptek spyder can repair damaged necron warriors, construct scarab swarms, and unleash particle beamers that disintegrate enemies. Its powerful claws can tear through fortifications, and its glimmering green energy fields repair fallen necrons, bringing them back to the fight. The spyder moves with insectile grace, its multiple limbs allowing it to navigate any terrain as it ensures the dynasty's forces remain operational.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Scyther"]/label</xpath>
     <value>
-      <label>necron flayed one</label>
+      <label>canoptek spyder</label>
     </value>
   </Operation>
 
