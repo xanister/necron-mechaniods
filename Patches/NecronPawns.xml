@@ -162,7 +162,7 @@
 
 
   <!-- Termite -> Skorpekh Destroyer -->
-  <!-- Note: Mech_Termite only exists as ThingDef in Core, no PawnKindDef -->
+  <!-- Note: Mech_Termite only exists as ThingDef in Core, but Mech_Termite_Breach is the PawnKindDef -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Termite"]/label</xpath>
     <value>
@@ -174,6 +174,13 @@
     <xpath>Defs/ThingDef[defName="Mech_Termite"]/description</xpath>
     <value>
       <description>A necron destroyer obsessed with the annihilation of all life, its lower body replaced with a powerful mechanical chassis that allows it to move with predatory speed. The skorpekh destroyer wields hyperphase blades that exist partially out of phase, allowing them to slice through any material. Its thresher blades can carve through multiple enemies in a single sweep, and its hate-filled consciousness drives it to seek out the densest concentrations of living flesh to rend apart.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Mech_Termite_Breach"]/label</xpath>
+    <value>
+      <label>skorpekh destroyer</label>
     </value>
   </Operation>
 
