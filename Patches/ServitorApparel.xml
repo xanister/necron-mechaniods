@@ -62,18 +62,18 @@
     </value>
   </Operation>
   
-  <!-- Mechlord Helmet -> Servitor Master Helmet -->
+  <!-- Mechlord Helmet -> Tech-Priest Helmet -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechlordHelmet"]/label</xpath>
     <value>
-      <label>servitor master helmet</label>
+      <label>tech-priest helmet</label>
     </value>
   </Operation>
-  
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechlordHelmet"]/description</xpath>
     <value>
-      <description>A heavy plasteel-weave helmet packed with overseer-assistance gear sanctified with forbidden binharic protocols. The servitor master helmet dramatically amplifies an overseer's bandwidth, but is somewhat less protective than dedicated heavy armor.</description>
+      <description>A heavy plasteel-weave helmet packed with advanced cogitators and binharic protocols sanctified by the Machine Cult. The tech-priest helmet dramatically amplifies a tech-priest's control bandwidth, but is somewhat less protective than dedicated heavy armor.</description>
     </value>
   </Operation>
   
@@ -107,18 +107,18 @@
     </value>
   </Operation>
   
-  <!-- Mechlord Suit -> Servitor Master Suit -->
+  <!-- Mechlord Suit -> Tech-Priest Suit -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]/label</xpath>
     <value>
-      <label>servitor master suit</label>
+      <label>tech-priest suit</label>
     </value>
   </Operation>
-  
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]/description</xpath>
     <value>
-      <description>A power-assisted armor suit packed with overseer-assistance gear sanctified with forbidden binharic protocols. The servitor master suit dramatically amplifies an overseer's bandwidth, but is somewhat less protective than dedicated heavy armor. The suit's integrated cogitators and signal amplifiers allow the wearer to command vast legions of servitors through sacred Mechanicus rites.</description>
+      <description>A power-assisted armor suit packed with advanced cogitators and binharic protocols sanctified by the Machine Cult. The tech-priest suit dramatically amplifies a tech-priest's control bandwidth, but is somewhat less protective than dedicated heavy armor. The suit's integrated cogitators and signal amplifiers allow the wearer to command vast legions of servitors through sacred Mechanicus rites.</description>
     </value>
   </Operation>
   
