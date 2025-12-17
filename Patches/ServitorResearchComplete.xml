@@ -34,7 +34,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/generalRules/rulesStrings/li[starts-with(., "subject_story->was mining an ancient exostrider wreck and found a mechlink preserved in the wreckage")]</xpath>
     <value>
-      <li>subject_story->was mining an ancient Mechanicus wreck and found a servitor control link preserved in the wreckage</li>
+      <li>subject_story->was mining an ancient Legio Cybernetica crawler and recovered a servitor control link preserved in the wreckage</li>
     </value>
   </Operation>
   
