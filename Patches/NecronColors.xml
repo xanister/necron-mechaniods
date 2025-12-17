@@ -212,4 +212,33 @@
       <color>(140, 220, 180)</color>
     </value>
   </Operation>
+
+  <!-- VGE Astropede/Hunter (Vanilla Gravship Expanded) -->
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="VGE_Astropede"]/lifeStages/li[@MayRequire="Ludeon.Rimworld.Biotech"]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="VGE_Astropede"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="VGE_Hunter"]/lifeStages/li[@MayRequire="Ludeon.Rimworld.Biotech"]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="VGE_Hunter"]/lifeStages/li[2]/bodyGraphicData</xpath>
+    <value>
+      <color>(140, 220, 180)</color>
+    </value>
+  </Operation>
 </Patch>

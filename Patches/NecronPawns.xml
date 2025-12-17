@@ -390,4 +390,97 @@
     </value>
   </Operation>
 
+  <!-- VGE_Astropede -> Necron Lokhust Destroyer -->
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VGE_Astropede"]/label</xpath>
+    <value>
+      <label>necron lokhust destroyer</label>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VGE_Astropede"]/description</xpath>
+    <value>
+      <description>An outcast lokhust destroyer whose self-loathing has driven it to replace its body with a skittering chassis bristling with particle weaponry. It darts across the battlefield on segmented limbs, carving through infantry with sweeping enmitic blasts before slipping back into cover.</description>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/BodyDef[defName="VGE_Astropede"]/label</xpath>
+    <value>
+      <label>lokhust destroyer chassis</label>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="VGE_Astropede"]/label</xpath>
+    <value>
+      <label>necron lokhust destroyer</label>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="VGE_AstropedeRecipe"]/label</xpath>
+    <value>
+      <label>construct lokhust destroyer</label>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="VGE_AstropedeRecipe"]/description</xpath>
+    <value>
+      <description>Construct a lokhust destroyer. These heavily armed outcasts ride skittering grav-chassis and carve through infantry with enmitic blasts.</description>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="VGE_AstropedeRecipe"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False"></recipeUsers>
+    </value>
+  </Operation>
+
+  <!-- VGE_Hunter -> Hunter (void-mech variant) -->
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VGE_Hunter"]/label</xpath>
+    <value>
+      <label>hunter</label>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VGE_Hunter"]/description</xpath>
+    <value>
+      <description>A fast Necron void-combat construct that uses gravitic stabilizers to drift through space, closing distance before unleashing precise volleys from its twin-linked javelin launcher.</description>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="VGE_Hunter"]/label</xpath>
+    <value>
+      <label>hunter</label>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="VGE_HunterRecipe"]/label</xpath>
+    <value>
+      <label>construct hunter</label>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="VGE_HunterRecipe"]/description</xpath>
+    <value>
+      <description>Construct a hunter void-combat Necron. Their gravitic stabilizers let them maneuver effortlessly before striking with short-range missile salvos.</description>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="vanillaexpanded.gravship" Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="VGE_HunterRecipe"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False"></recipeUsers>
+    </value>
+  </Operation>
+
 </Patch>
