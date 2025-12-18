@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- 40k terminology pass for Odyssey quest scripts -->
+
+  <!-- Ancient structure opportunities -> archeotech / Mechanicus tone -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questNameRules/rulesStrings/li[. = "questName->The [ancient] [structureName]"]</xpath>
+    <value>
+      <li>questName->The [ancient] [structureName]</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questNameRules/rulesStrings/li[. = "questName->[ancient] [structureName]"]</xpath>
+    <value>
+      <li>questName->[ancient] [structureName]</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questNameRules/rulesStrings/li[. = "questName->Discovered [structureName]"]</xpath>
+    <value>
+      <li>questName->Recovered [structureName]</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questNameRules/rulesStrings/li[. = "ancient(p=2)->Ancient"]</xpath>
+    <value>
+      <li>ancient(p=2)->Archeotech</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questNameRules/rulesStrings/li[. = "ancient->Lost"]</xpath>
+    <value>
+      <li>ancient->Forbidden</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questDescriptionRules/rulesStrings/li[starts-with(., "questDescription->")]</xpath>
+    <value>
+      <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can plunder the archeotech ruin for Mechanicus relics.\n\nBe warned, such sites often house dormant defenses and xeno threats.</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questSubjectRules/rulesStrings/li[. = "subject->ancient buildings"]</xpath>
+    <value>
+      <li>subject->archeotech vaults</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questSubjectRules/rulesStrings/li[. = "subject->lost landmarks"]</xpath>
+    <value>
+      <li>subject->forbidden Mechanicus sites</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[@Name="Script_AncientStructuresBase"]/questSubjectRules/rulesStrings/li[. = "subject->ancient structures"]</xpath>
+    <value>
+      <li>subject->archeotech reliquaries</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureLaunchSite"]/questNameRules/rulesStrings/li[. = "structureName->launch site"]</xpath>
+    <value>
+      <li>structureName->voidport</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureLaunchSite"]/questDescriptionRules/rulesStrings/li[. = "structureNameWithArticle->an ancient launch site"]</xpath>
+    <value>
+      <li>structureNameWithArticle->a derelict Mechanicus voidport</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureLaunchSite"]/questSubjectRules/rulesStrings/li[. = "subject->ancient launch sites"]</xpath>
+    <value>
+      <li>subject->forsaken voidports</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureGarrison"]/questNameRules/rulesStrings/li[. = "structureName->garrison"]</xpath>
+    <value>
+      <li>structureName->bastion</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureGarrison"]/questDescriptionRules/rulesStrings/li[. = "structureNameWithArticle->an ancient garrison"]</xpath>
+    <value>
+      <li>structureNameWithArticle->a derelict Imperial bastion</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureGarrison"]/questSubjectRules/rulesStrings/li[. = "subject->ancient military sites"]</xpath>
+    <value>
+      <li>subject->abandoned bastions</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureGarrison"]/questSubjectRules/rulesStrings/li[. = "subject->ancient garrisons"]</xpath>
+    <value>
+      <li>subject->forgotten PDF redoubts</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureChemfuelRefinery"]/questNameRules/rulesStrings/li[. = "structureName->chemfuel refinery"]</xpath>
+    <value>
+      <li>structureName->promethium refinery</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureChemfuelRefinery"]/questDescriptionRules/rulesStrings/li[. = "structureNameWithArticle->an ancient chemfuel refinery"]</xpath>
+    <value>
+      <li>structureNameWithArticle->a derelict promethium refinery</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureChemfuelRefinery"]/questSubjectRules/rulesStrings/li[. = "subject->ancient refineries"]</xpath>
+    <value>
+      <li>subject->abandoned promethium plants</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="Opportunity_AncientStructureChemfuelRefinery"]/questSubjectRules/rulesStrings/li[. = "subject->chemplants"]</xpath>
+    <value>
+      <li>subject->refineries</li>
+    </value>
+  </Operation>
+
+  <!-- Bandit camp -> heretek warband outpost -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "questName->The [bandit] [camp]"]</xpath>
+    <value>
+      <li>questName->The [bandit] [camp]</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "questName->[bandit] [camp]"]</xpath>
+    <value>
+      <li>questName->[bandit] [camp]</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "camp->Camp"]</xpath>
+    <value>
+      <li>camp->Redoubt</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "camp->Outpost"]</xpath>
+    <value>
+      <li>camp->Outpost</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "camp->Lair"]</xpath>
+    <value>
+      <li>camp->Lair</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "camp->Encampment"]</xpath>
+    <value>
+      <li>camp->Encampment</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "bandit->Bandit"]</xpath>
+    <value>
+      <li>bandit->Heretek</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "bandit->Raider"]</xpath>
+    <value>
+      <li>bandit->Cultist</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "bandit->Outlaw"]</xpath>
+    <value>
+      <li>bandit->Heretic</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "bandit->Desperado"]</xpath>
+    <value>
+      <li>bandit->Renegade</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "bandit->Fugitive"]</xpath>
+    <value>
+      <li>bandit->Fallen</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questNameRules/rulesStrings/li[. = "bandit->Marauder"]</xpath>
+    <value>
+      <li>bandit->Warband</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questDescriptionRules/rulesStrings/li[starts-with(., "questDescription->")]</xpath>
+    <value>
+      <li>questDescription->[discoveryMethod] the location of a heretek redoubt held by [siteFaction_name]. The redoubt shelters hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "subject->bandit camps"]</xpath>
+    <value>
+      <li>subject->heretek redoubts</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "subject->outlaws"]</xpath>
+    <value>
+      <li>subject->hereteks</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "subject->raider sightings"]</xpath>
+    <value>
+      <li>subject->cultist sightings</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "questMapFeature->bandit outpost"]</xpath>
+    <value>
+      <li>questMapFeature->heretek redoubt</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "questMapFeature->raider encampment"]</xpath>
+    <value>
+      <li>questMapFeature->cultist encampment</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "questMapText->dangerous folk"]</xpath>
+    <value>
+      <li>questMapText->heretek activity</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "questMapText->camp loot"]</xpath>
+    <value>
+      <li>questMapText->forbidden tech loot</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "questMapText->trespassers get skinned"]</xpath>
+    <value>
+      <li>questMapText->trespassers are sacrificed</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="OpportunitySite_BanditCamp_Giver"]/questSubjectRules/rulesStrings/li[. = "questMapText->traders beware - outlaws"]</xpath>
+    <value>
+      <li>questMapText->pilgrims beware - hereteks</li>
+    </value>
+  </Operation>
+</Patch>
