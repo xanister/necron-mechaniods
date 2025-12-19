@@ -46,25 +46,25 @@
   </Operation>
 
 
-  <!-- Scyther -> Canoptek Spyder -->
+  <!-- Scyther -> Canoptek Scarab Swarm -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Scyther"]/label</xpath>
     <value>
-      <label>canoptek spyder</label>
+      <label>canoptek scarab swarm</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_Scyther"]/description</xpath>
     <value>
-      <description>A multi-legged canoptek construct that serves both as a support unit and a devastating combatant. The canoptek spyder can repair damaged necron warriors, construct scarab swarms, and unleash particle beamers that disintegrate enemies. Its powerful claws can tear through fortifications, and its glimmering green energy fields repair fallen necrons, bringing them back to the fight. The spyder moves with insectile grace, its multiple limbs allowing it to navigate any terrain as it ensures the dynasty's forces remain operational.</description>
+      <description>A swarm of diminutive canoptek scarabs deployed directly into combat. These bio-mechanical constructs crawl and scuttle in a coordinated horde, their monomolecular mandibles capable of stripping flesh from bone in seconds. Though individually fragile, their numbers and speed make them a terrifying threat, swarming over enemies in a wave of metallic chittering as they reduce their victims to scattered bones and dust.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_Scyther"]/label</xpath>
     <value>
-      <label>canoptek spyder</label>
+      <label>canoptek scarab swarm</label>
     </value>
   </Operation>
 
@@ -185,25 +185,25 @@
   </Operation>
 
 
-  <!-- WarUrchin -> Canoptek Scarab Swarm (variant) -->
+  <!-- WarUrchin -> Canoptek Spyder (variant) -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_WarUrchin"]/label</xpath>
     <value>
-      <label>canoptek scarab swarm</label>
+      <label>canoptek spyder</label>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Mech_WarUrchin"]/description</xpath>
     <value>
-      <description>A swarm of diminutive canoptek scarabs deployed directly into combat. These bio-mechanical constructs crawl and scuttle in a coordinated horde, their monomolecular mandibles capable of stripping flesh from bone in seconds. Though individually fragile, their numbers and speed make them a terrifying threat, swarming over enemies in a wave of metallic chittering as they reduce their victims to scattered bones and dust.</description>
+      <description>A multi-legged canoptek construct that serves both as a support unit and a devastating combatant. The canoptek spyder can repair damaged necron warriors, construct scarab swarms, and unleash particle beamers that disintegrate enemies. Its powerful claws can tear through fortifications, and its glimmering green energy fields repair fallen necrons, bringing them back to the fight. The spyder moves with insectile grace, its multiple limbs allowing it to navigate any terrain as it ensures the dynasty's forces remain operational.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Mech_WarUrchin"]/label</xpath>
     <value>
-      <label>canoptek scarab swarm</label>
+      <label>canoptek spyder</label>
     </value>
   </Operation>
 
