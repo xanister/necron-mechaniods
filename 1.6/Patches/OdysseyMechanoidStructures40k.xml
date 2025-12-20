@@ -62,7 +62,7 @@
   <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
     <xpath>Defs/ThingDef[defName="MechRelay"]/comps/li[@Class="CompProperties_MechRelay"]/activeInspectString</xpath>
     <value>
-      <activeInspectString>Hack or destroy relay stabilizers to obtain gravcore.</activeInspectString>
+      <activeInspectString>Hack or destroy relay stabilizers to obtain plasma core.</activeInspectString>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
@@ -80,7 +80,7 @@
   <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Odyssey">
     <xpath>Defs/ThingDef[defName="MechRelay"]/comps/li[@Class="CompProperties_MechRelay"]/crashedLetterText</xpath>
     <value>
-      <crashedLetterText>The Necron relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile Necrons will soon arrive in response to the relay going offline.</crashedLetterText>
+      <crashedLetterText>The Necron relay has crashed to the ground. Destroy it to obtain a plasma core.\n\nBe warned, hostile Necrons will soon arrive in response to the relay going offline.</crashedLetterText>
     </value>
   </Operation>
   
