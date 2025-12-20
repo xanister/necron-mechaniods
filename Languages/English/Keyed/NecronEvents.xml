@@ -22,7 +22,7 @@
   <MessageMustDesignateDeconstructibleMechCluster>You must defeat a Necron tomb complex before you can deconstruct it.</MessageMustDesignateDeconstructibleMechCluster>
   <MessageMechanoidsAssembled>Necron warriors have been assembled and will defend their complex.</MessageMechanoidsAssembled>
   <MessageMechanoidsLeftToAssemble>Remaining Necron warriors to assemble</MessageMechanoidsLeftToAssemble>
-  <MessageMechanoidsReinforcementsDrop>Necron teleport beacon has summoned reinforcements in drop pods nearby.</MessageMechanoidsReinforcementsDrop>
+  <MessageMechanoidsReinforcementsDrop>Necron teleport beacon has summoned reinforcements nearby.</MessageMechanoidsReinforcementsDrop>
   <MessageMechClusterDefeated>Necron tomb complex structures have been defeated.</MessageMechClusterDefeated>
   
   <!-- Activator countdown -->

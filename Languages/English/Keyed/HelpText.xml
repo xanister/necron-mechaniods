@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!-- Update help text to replace "mech" with "cybernetica" and "mechanitor" with "overseer" -->
+  <!-- Update help text to replace mechanitor/mech terminology with overseer/servitor terminology -->
   
   <!-- Bandwidth Gizmo Tip -->
-  <BandwidthGizmoTip>An overseer can only oversee a cybernetica construct if there is enough bandwidth to do so. Each cybernetica construct consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the overseer to them, or by equipping special overseer apparel.</BandwidthGizmoTip>
+  <BandwidthGizmoTip>An overseer can only oversee a servitor if there is enough bandwidth to do so. Each servitor consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the overseer to them, or by equipping special overseer apparel.</BandwidthGizmoTip>
   
   <!-- Alert descriptions -->
-  <AlertMechLacksOverseer>Uncontrolled cybernetica constructs</AlertMechLacksOverseer>
+  <AlertMechLacksOverseer>Uncontrolled servitors</AlertMechLacksOverseer>
   
-  <AlertMechLacksOverseerDesc>One or more of your cybernetica constructs is not controlled. Connect your cybernetica constructs to an overseer with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a cybernetica construct could go feral. When this happens they will join {0} and become hostile to you. If one cybernetica construct goes feral, it will bring other nearby cybernetica constructs with it.\n\nFeral cybernetica constructs cannot be resurrected at a gestator when killed.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>One or more of your servitors is not controlled. Connect your servitors to an overseer with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a servitor could go feral. When this happens they will join {0} and become hostile to you. If one servitor goes feral, it will bring other nearby servitors with it.\n\nFeral servitors cannot be restored at a servitor construction bay when killed.</AlertMechLacksOverseerDesc>
   
-  <AlertMechLacksOverseerUncontrolled>The following cybernetica constructs are uncontrolled</AlertMechLacksOverseerUncontrolled>
+  <AlertMechLacksOverseerUncontrolled>The following servitors are uncontrolled</AlertMechLacksOverseerUncontrolled>
   
-  <AlertMechLacksOverseerMayGoFeral>The following cybernetica constructs are uncontrolled and could go feral at any moment</AlertMechLacksOverseerMayGoFeral>
+  <AlertMechLacksOverseerMayGoFeral>The following servitors are uncontrolled and could go feral at any moment</AlertMechLacksOverseerMayGoFeral>
   
   <!-- Building descriptions -->
-  <MechbandAntenna>Band nodes must be tuned to a specific overseer. This will add 1 bandwidth to that overseer's total bandwidth, allowing them to control more cybernetica constructs.\n\nOnce a band node is constructed, it can be quickly tuned to an overseer. However, retuning a band node to a different overseer takes significantly longer.</MechbandAntenna>
+  <MechbandAntenna>Band nodes must be tuned to a specific overseer. This will add 1 bandwidth to that overseer's total bandwidth, allowing them to control more servitors.\n\nOnce a band node is constructed, it can be quickly tuned to an overseer. However, retuning a band node to a different overseer takes significantly longer.</MechbandAntenna>
   
   <!-- Apparel descriptions -->
-  <MechlinkBasic>A simple head-mounted comms computer that slightly enhances an overseer's control bandwidth. This allows them to control more cybernetica constructs.</MechlinkBasic>
+  <MechlinkBasic>A simple head-mounted comms computer that slightly enhances an overseer's control bandwidth. This allows them to control more servitors.</MechlinkBasic>
   
-  <MechlinkStandard>A head-mounted computer and signaling array that enhances an overseer's control bandwidth. This allows them to control more cybernetica constructs.</MechlinkStandard>
+  <MechlinkStandard>A head-mounted computer and signaling array that enhances an overseer's control bandwidth. This allows them to control more servitors.</MechlinkStandard>
   
-  <MechlinkAdvanced>An advanced head-mounted computer and signaling array that dramatically enhances an overseer's control bandwidth. This allows the wearer to control many more cybernetica constructs at once.</MechlinkAdvanced>
+  <MechlinkAdvanced>An advanced head-mounted computer and signaling array that dramatically enhances an overseer's control bandwidth. This allows the wearer to control many more servitors at once.</MechlinkAdvanced>
   
   <Apparel_MechlordHelmet>A heavy plasteel-weave helmet packed with overseer-assistance gear. The overseer helmet dramatically amplifies an overseer's bandwidth, but is somewhat less protective than dedicated heavy armor.</Apparel_MechlordHelmet>
   
   <!-- Misc gameplay text -->
-  <CaravanMech>1 cybernetica construct</CaravanMech>
-  <CaravanMechsCount>{0} cybernetica constructs</CaravanMechsCount>
+  <CaravanMech>1 servitor</CaravanMech>
+  <CaravanMechsCount>{0} servitors</CaravanMechsCount>
   
-  <AssignedMechs>Assigned cybernetica constructs</AssignedMechs>
+  <AssignedMechs>Assigned servitors</AssignedMechs>
   
   <BandNodeTuningDesc>Tune this band node to an overseer. Tuning will take {0} to complete.</BandNodeTuningDesc>
   
   <BandNodeRetuningDesc>Retune this band node to another overseer. Retuning will take {0} to complete.</BandNodeRetuningDesc>
   
-  <DropThingBandwidthApparel>Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following cybernetica constructs will no longer be under control</DropThingBandwidthApparel>
+  <DropThingBandwidthApparel>Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following servitors will no longer be under control</DropThingBandwidthApparel>
   
-  <NoMechs>no cybernetica constructs</NoMechs>
+  <NoMechs>no servitors</NoMechs>
   
-  <LoadingMechGestator>Loading cybernetica gestation resources</LoadingMechGestator>
+  <LoadingMechGestator>Loading servitor construction resources</LoadingMechGestator>
   
-  <InitMechGestationCycle>Initiating cybernetica gestation cycle</InitMechGestationCycle>
+  <InitMechGestationCycle>Initiating servitor construction cycle</InitMechGestationCycle>
   
-  <InitMechBirth>Initiating cybernetica birth</InitMechBirth>
+  <InitMechBirth>Initiating servitor activation</InitMechBirth>
   
-  <MechEnergy>Cybernetica energy</MechEnergy>
+  <MechEnergy>Servitor energy</MechEnergy>
   
-  <MechGestationBandwidthUsed>Cybernetica gestation bandwidth</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>Servitor construction bandwidth</MechGestationBandwidthUsed>
   
   <GestatingMech>Gestating {0}</GestatingMech>
   
@@ -70,7 +70,7 @@
   
   <MechCarrierDesc>Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out.</MechCarrierDesc>
   
-  <MechPowerCellTip>War urchins have a one-time power source. When the power cell runs out, the cybernetica construct dies.</MechPowerCellTip>
+  <MechPowerCellTip>War urchins have a one-time power source. When the power cell runs out, the servitor dies.</MechPowerCellTip>
   
   <RequiresMechanitor>requires overseer</RequiresMechanitor>
   
@@ -78,47 +78,47 @@
   
   <CannotAssignMechToControlGroup>Cannot assign to control group {0}</CannotAssignMechToControlGroup>
   
-  <MechResurrectionCharges>Cybernetica resurrection charges</MechResurrectionCharges>
+  <MechResurrectionCharges>Servitor resurrection charges</MechResurrectionCharges>
   
-  <MechStunPulseWarning>Cybernetica construct stun pulse on death</MechStunPulseWarning>
+  <MechStunPulseWarning>Servitor stun pulse on death</MechStunPulseWarning>
   
   <RemoteMechShieldTip>A remote shield projected by an overseer. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP</RemoteMechShieldTip>
   
   <!-- Additional Alert descriptions -->
-  <AlertWarqueenHasLowResourcesDesc>One or more {0} are low on resources. They will be unable to produce cybernetica constructs on command if they run out of resources.</AlertWarqueenHasLowResourcesDesc>
+  <AlertWarqueenHasLowResourcesDesc>One or more {0} are low on resources. They will be unable to produce servitors on command if they run out of resources.</AlertWarqueenHasLowResourcesDesc>
   
-  <AlertRechargerFullDesc>Some cybernetica recharger(s) are storing their maximum number of toxic wastepacks. Cybernetica constructs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it.</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>Some servitor recharger(s) are storing their maximum number of toxic wastepacks. Servitors can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it.</AlertRechargerFullDesc>
   
-  <AlertNeedMechChargers>Need cybernetica rechargers</AlertNeedMechChargers>
+  <AlertNeedMechChargers>Need servitor rechargers</AlertNeedMechChargers>
   
-  <AlertNeedMechChargersDesc>You don't have rechargers for all your cybernetica constructs. If a cybernetica construct runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light cybernetica constructs can use regular cybernetica rechargers. Medium or heavier cybernetica constructs require large cybernetica rechargers.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>You don't have rechargers for all your servitors. If a servitor runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light servitors can use regular servitor rechargers. Medium or heavier servitors require large servitor rechargers.</AlertNeedMechChargersDesc>
   
-  <AlertMechMissingBodyPart>Cybernetica construct missing part</AlertMechMissingBodyPart>
+  <AlertMechMissingBodyPart>Servitor missing part</AlertMechMissingBodyPart>
   
-  <AlertMechsMissingBodyPart>Cybernetica constructs missing parts</AlertMechsMissingBodyPart>
+  <AlertMechsMissingBodyPart>Servitors missing parts</AlertMechsMissingBodyPart>
   
-  <AlertMechMissingBodyPartDesc>One or more of your cybernetica constructs are missing a body part. An overseer can repair lost parts.\n\nThe cybernetica constructs with lost body parts are</AlertMechMissingBodyPartDesc>
+  <AlertMechMissingBodyPartDesc>One or more of your servitors are missing a body part. An overseer can repair lost parts.\n\nThe servitors with lost body parts are</AlertMechMissingBodyPartDesc>
   
-  <AlertMechNeedsRepair>Cybernetica construct repair needed</AlertMechNeedsRepair>
+  <AlertMechNeedsRepair>Servitor repair needed</AlertMechNeedsRepair>
   
-  <AlertMechNeedsRepairDescPrefix>These cybernetica constructs are damaged and need repair</AlertMechNeedsRepairDescPrefix>
+  <AlertMechNeedsRepairDescPrefix>These servitors are damaged and need repair</AlertMechNeedsRepairDescPrefix>
   
-  <AlertMechNeedsRepairDesc>Order an overseer to repair them, or select the cybernetica construct and turn on auto-repair. Repairing a cybernetica construct requires energy. If a cybernetica construct's energy is so low it can't move, someone must carry it to a recharger.</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepairDesc>Order an overseer to repair them, or select the servitor and turn on auto-repair. Repairing a servitor requires energy. If a servitor's energy is so low it can't move, someone must carry it to a recharger.</AlertMechNeedsRepairDesc>
   
-  <AlertBossgroupIncomingDesc>Signaled by your overseer, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile cybernetica constructs will arrive in a few hours or days.</AlertBossgroupIncomingDesc>
+  <AlertBossgroupIncomingDesc>Signaled by your overseer, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile servitors will arrive in a few hours or days.</AlertBossgroupIncomingDesc>
   
   <!-- Command gizmos -->
-  <CommandSelectAllMechs>Select all cybernetica constructs</CommandSelectAllMechs>
+  <CommandSelectAllMechs>Select all servitors</CommandSelectAllMechs>
   
-  <CommandSelectAllMechsDesc>Select all cybernetica constructs controlled by this overseer.</CommandSelectAllMechsDesc>
+  <CommandSelectAllMechsDesc>Select all servitors controlled by this overseer.</CommandSelectAllMechsDesc>
   
   <CommandCallBossgroup>Signal hostile threat...</CommandCallBossgroup>
   
   <CommandCallBossgroupDesc>Signal an enemy Necron commander along with its escorts using forbidden binharic protocols.\n\nIf you defeat the commander, it will drop a special cogitator chip which you can use to advance your own cybernetica technology.\n\nThere are three commander types, each signaled a different way, each dropping a different type of cogitator chip.</CommandCallBossgroupDesc>
   
-  <CommandSelectOverseerDesc>Select the overseer who commands this cybernetica construct.</CommandSelectOverseerDesc>
+  <CommandSelectOverseerDesc>Select the overseer who commands this servitor.</CommandSelectOverseerDesc>
   
-  <CommandAutoRepairDesc>If active, an overseer will automatically repair this cybernetica construct. Repairing a cybernetica construct drains its energy.</CommandAutoRepairDesc>
+  <CommandAutoRepairDesc>If active, an overseer will automatically repair this servitor. Repairing a servitor drains its energy.</CommandAutoRepairDesc>
   
   <!-- Float Menu -->
   <NotAMechanitor>Not an overseer</NotAMechanitor>
@@ -126,53 +126,53 @@
   <!-- Dialogs -->
   <AnyMechanitor>Any overseer</AnyMechanitor>
   
-  <BossgroupWarningDialog>Signaling the {LEADERKIND_label} threat will signal the following hostile cybernetica constructs:\n\n{PAWNS}\n\nThe cybernetica constructs will arrive in the next few hours or days. Are you ready to fight?</BossgroupWarningDialog>
+  <BossgroupWarningDialog>Signaling the {LEADERKIND_label} threat will signal the following hostile servitors:\n\n{PAWNS}\n\nThe servitors will arrive in the next few hours or days. Are you ready to fight?</BossgroupWarningDialog>
   
-  <ConfirmInstallMechlink_Smithing>An overseer must be capable of smithing to create cybernetica constructs.\n\nAre you sure you want to continue?</ConfirmInstallMechlink_Smithing>
+  <ConfirmInstallMechlink_Smithing>An overseer must be capable of smithing to create servitors.\n\nAre you sure you want to continue?</ConfirmInstallMechlink_Smithing>
   
   <ConfirmInstallMechlink_Intellectual>An overseer must be capable of intellectual tasks to unlock cybernetica research.\n\nAre you sure you want to continue?</ConfirmInstallMechlink_Intellectual>
   
-  <MechanitorLeftMapWithoutMechs>The following cybernetica constructs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe cybernetica constructs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map?</MechanitorLeftMapWithoutMechs>
+  <MechanitorLeftMapWithoutMechs>The following servitors have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe servitors will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map?</MechanitorLeftMapWithoutMechs>
   
-  <CaravanLacksMechMechanitorWarning>Your caravan contains a cybernetica construct but not their overseer. You will have limited control over the cybernetica construct when you reach your destination.</CaravanLacksMechMechanitorWarning>
+  <CaravanLacksMechMechanitorWarning>Your caravan contains a servitor but not their overseer. You will have limited control over the servitor when you reach your destination.</CaravanLacksMechMechanitorWarning>
   
-  <MechOverseer>This cybernetica construct's overseer is {0}.</MechOverseer>
+  <MechOverseer>This servitor's overseer is {0}.</MechOverseer>
   
-  <MechWorkActivitiesExplanation>The work activities that can be performed by this cybernetica construct.\n\nThe following list details which work activities can be done within each work type</MechWorkActivitiesExplanation>
+  <MechWorkActivitiesExplanation>The work activities that can be performed by this servitor.\n\nThe following list details which work activities can be done within each work type</MechWorkActivitiesExplanation>
   
-  <MechRechargeSettingsExplanation>Change when cybernetica constructs will start and stop charging.\n\nCybernetica constructs with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode.</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>Change when servitors will start and stop charging.\n\nServitors with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode.</MechRechargeSettingsExplanation>
   
-  <MechWorkSkillDesc>The skill level that this cybernetica construct acts with.</MechWorkSkillDesc>
+  <MechWorkSkillDesc>The skill level that this servitor acts with.</MechWorkSkillDesc>
   
-  <AnyMech>Any cybernetica construct</AnyMech>
+  <AnyMech>Any servitor</AnyMech>
   
-  <MechsSection>Cybernetica Constructs</MechsSection>
+  <MechsSection>Servitors</MechsSection>
   
-  <RenameMech>Rename cybernetica construct</RenameMech>
+  <RenameMech>Rename servitor</RenameMech>
   
-  <MechGainsName>The cybernetica construct's name is now {0}.</MechGainsName>
+  <MechGainsName>The servitor's name is now {0}.</MechGainsName>
   
-  <ChooseMechAccentColor>Choose cybernetica construct accent color</ChooseMechAccentColor>
+  <ChooseMechAccentColor>Choose servitor accent color</ChooseMechAccentColor>
   
-  <ConfirmAbandonHomeWithColonyPawnsIncMechs>Some of your colonists, animals or cybernetica constructs are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and cybernetica constructs will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>Some of your colonists, animals or servitors are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and servitors will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
   
   <!-- Messages -->
   <MessageMechanitorCasketOpened>{0} was an overseer. You can remove {0_possessive} {1_label} and use it on a colonist.</MessageMechanitorCasketOpened>
   
-  <MessageMechanitorLostControlOfMech>{0_nameDef} has lost control of a {1_kindBase} cybernetica construct</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorLostControlOfMech>{0_nameDef} has lost control of a {1_kindBase} servitor</MessageMechanitorLostControlOfMech>
   
-  <MessageMechanitorDisconnectedFromMech>{0_nameDef} has disconnected from {1_nameDef} cybernetica construct.</MessageMechanitorDisconnectedFromMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef} has disconnected from {1_nameDef} servitor.</MessageMechanitorDisconnectedFromMech>
   
-  <MessageMechChargerDestroyedMechGoesBerserk>A cybernetica recharger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its cogitator core, and it is going berserk.</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>A servitor recharger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its cogitator core, and it is going berserk.</MessageMechChargerDestroyedMechGoesBerserk>
   
   <MessageCaravanAddingEscortingMech>Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech>
   
   <MessageCaravanRemovingEscortingMech>Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
   
   <!-- Designators -->
-  <DesignatorMechControlGroupDesc>Assign the selected cybernetica construct(s) to another control group under their current overseer.</DesignatorMechControlGroupDesc>
+  <DesignatorMechControlGroupDesc>Assign the selected servitor(s) to another control group under their current overseer.</DesignatorMechControlGroupDesc>
   
-  <ChooseMechColor>Choose cybernetica color...</ChooseMechColor>
+  <ChooseMechColor>Choose servitor color...</ChooseMechColor>
   
   <MechCanBuildThis>However, a {0} can build this.</MechCanBuildThis>
   
@@ -190,4 +190,10 @@
   
   <MechControllerMentalState>{PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state.</MechControllerMentalState>
   
+
+  <!-- Letters (moved here to avoid duplicate keyed overrides) -->
+  <LetterMechlinkInstalled>{PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now an overseer and can create and control servitors.\n\nResearch basic cybernetica tech to get started.\n\n(*SectionTitle)Creating servitors:(/SectionTitle) Your overseer can create servitors at a production building called a servitor construction bay.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Overseers can control as many servitors as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Overseers control servitors in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo change a control group's mode, select any servitor in that group and use the mode buttons in the inspection pane.</LetterMechlinkInstalled>
+  <LetterCommsConsoleSpawned>An overseer can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} Necron construct. Be prepared, {LEADER_label} Necron constructs are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterBossgroupCallerUnlocked>You can now build a {PARENT_label} which an overseer can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterLabelMechanitorCasketOpened>{PAWN_nameDef}'s mechlink available</LetterLabelMechanitorCasketOpened>
 </LanguageData>
